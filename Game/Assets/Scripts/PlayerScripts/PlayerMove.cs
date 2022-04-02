@@ -6,13 +6,15 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     private Rigidbody2D rigidbody2D;
+
+    public float Acceleration = 20f;
     
     void Start()
     {
         rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Move();
         //DirectionMove();
@@ -27,8 +29,8 @@ public class PlayerMove : MonoBehaviour
         
         var moveVec = new Vector2(a + d, w + s).normalized;
 
-        rigidbody2D.AddForce(moveVec * 20);
-        rigidbody2D.velocity *= 0.9f;
+        rigidbody2D.AddForce(moveVec * Acceleration);
+        rigidbody2D.velocity *= 0.75f;
     }
     
     private void DirectionMove()
