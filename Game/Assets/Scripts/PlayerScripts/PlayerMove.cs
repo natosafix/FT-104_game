@@ -8,12 +8,28 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D rigidbody2D;
 
     public float Acceleration = 20f;
+    public Animator Animator;
     
     void Start()
     {
         rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
+    void Update()
+    {
+        var moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        var velocity = rigidbody2D.velocity;
+        
+        if (velocity.magnitude > 0.5f)
+        {
+            Animator.SetFloat("HorizontalState", velocity.x);
+            Animator.SetFloat("VerticalState", velocity.y);
+            Animator.SetFloat("Horizontal", velocity.x);
+            Animator.SetFloat("Vertical", velocity.y);
+            Animator.SetFloat("Speed", moveVec.magnitude);
+        }
+    }
+    
     void FixedUpdate()
     {
         Move();

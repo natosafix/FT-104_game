@@ -2,6 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
     </list>
@@ -13,16 +49,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27ESJNTgYGSTJ1bPuNLuVUpXBAX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -66,7 +108,7 @@
       <workItem from="1648883691054" duration="830000" />
       <workItem from="1648884718064" duration="839000" />
       <workItem from="1648887938246" duration="616000" />
-      <workItem from="1648890997847" duration="751000" />
+      <workItem from="1648890997847" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -88,6 +130,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
