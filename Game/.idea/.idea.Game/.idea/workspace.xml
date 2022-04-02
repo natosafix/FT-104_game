@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/iso-64x64-outside_43.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/iso-64x64-outside_43.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1648883691054" duration="830000" />
       <workItem from="1648884718064" duration="839000" />
       <workItem from="1648887938246" duration="616000" />
-      <workItem from="1648890997847" duration="4377000" />
+      <workItem from="1648890997847" duration="5005000" />
     </task>
     <servers />
   </component>

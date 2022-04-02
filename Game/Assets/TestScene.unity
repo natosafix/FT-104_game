@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 1171108944}
   - component: {fileID: 1171108943}
   - component: {fileID: 1171108945}
+  - component: {fileID: 1171108946}
   m_Layer: 0
   m_Name: Cowboy
   m_TagString: Untagged
@@ -203,6 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Acceleration: 20
+  Animator: {fileID: 1171108946}
 --- !u!50 &1171108940
 Rigidbody2D:
   serializedVersion: 4
@@ -400,6 +402,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.012163255, y: -0.26455793}
   m_Size: {x: 0.3944104, y: 1.1424699}
   m_Direction: 0
+--- !u!95 &1171108946
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171108938}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 516529d30efaf9d46b09f86946e3abac, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1220255150
 GameObject:
   m_ObjectHideFlags: 0
