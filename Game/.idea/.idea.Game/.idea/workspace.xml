@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/iso-64x64-outside_43.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/iso-64x64-outside_43.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +73,7 @@
       <workItem from="1648883691054" duration="830000" />
       <workItem from="1648884718064" duration="839000" />
       <workItem from="1648887938246" duration="616000" />
-      <workItem from="1648890997847" duration="3880000" />
+      <workItem from="1648890997847" duration="4377000" />
     </task>
     <servers />
   </component>
