@@ -15,7 +15,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         Move();
-        DirectionMove();
+        //DirectionMove();
     }
 
     void Move()
