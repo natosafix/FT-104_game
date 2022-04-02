@@ -20,13 +20,15 @@ public class PlayerMove : MonoBehaviour
         var moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         var velocity = rigidbody2D.velocity;
         
+        Animator.SetFloat("Speed", moveVec.magnitude);
+        
         if (velocity.magnitude > 0.5f)
         {
             Animator.SetFloat("HorizontalState", velocity.x);
             Animator.SetFloat("VerticalState", velocity.y);
             Animator.SetFloat("Horizontal", velocity.x);
             Animator.SetFloat("Vertical", velocity.y);
-            Animator.SetFloat("Speed", moveVec.magnitude);
+            
         }
     }
     
