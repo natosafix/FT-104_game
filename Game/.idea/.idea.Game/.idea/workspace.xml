@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraTracking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraTracking.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +88,8 @@
       <workItem from="1648884718064" duration="839000" />
       <workItem from="1648887938246" duration="616000" />
       <workItem from="1648890997847" duration="5005000" />
+      <workItem from="1648921706975" duration="4463000" />
+      <workItem from="1649069640037" duration="1724000" />
     </task>
     <servers />
   </component>

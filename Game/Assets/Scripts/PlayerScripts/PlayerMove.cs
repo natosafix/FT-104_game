@@ -2,6 +2,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Numerics;
+using JetBrains.Annotations;
+using UnityEditor;
+using UnityEditor.MemoryProfiler;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+using Vector2 = UnityEngine.Vector2;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -17,17 +29,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        var moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        var velocity = rigidbody2D.velocity;
-        
-        if (velocity.magnitude > 0.5f)
-        {
-            Animator.SetFloat("HorizontalState", velocity.x);
-            Animator.SetFloat("VerticalState", velocity.y);
-            Animator.SetFloat("Horizontal", velocity.x);
-            Animator.SetFloat("Vertical", velocity.y);
-            Animator.SetFloat("Speed", moveVec.magnitude);
-        }
+        UpdateAnimation();
     }
     
     void FixedUpdate()
@@ -36,6 +38,38 @@ public class PlayerMove : MonoBehaviour
         //DirectionMove();
     }
 
+    private void UpdateAnimation()
+    {
+        var moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        var velocity = rigidbody2D.velocity;
+        
+        Animator.SetFloat("Speed", moveVec.magnitude);
+
+        if (Input.GetMouseButton((int) MouseButton.RightMouse))
+        {
+            var mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            var playerPos = (Vector2) Camera.main.WorldToScreenPoint(transform.position);
+            moveVec = (mousePos - playerPos).normalized;
+            
+            Animator.SetFloat("Horizontal", moveVec.x);
+            Animator.SetFloat("Vertical", moveVec.y);
+            Animator.SetFloat("HorizontalState", moveVec.x);
+            Animator.SetFloat("VerticalState", moveVec.y);
+        }
+        else
+        {
+            Animator.SetFloat("Horizontal", moveVec.x);
+            Animator.SetFloat("Vertical", moveVec.y);
+            if (velocity.magnitude > 0.2f)
+            {
+                Animator.SetFloat("HorizontalState", velocity.x);
+                Animator.SetFloat("VerticalState", velocity.y);
+            }
+        }
+        
+        
+    }
+    
     void Move()
     {
         var w = Input.GetKey(KeyCode.W) ? 1 : 0;
