@@ -13,7 +13,7 @@ using UnityEditor.MemoryProfiler;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
-
+using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 
 public class PlayerMove : MonoBehaviour
@@ -22,74 +22,27 @@ public class PlayerMove : MonoBehaviour
 
     private float Acceleration = 10f;
     public Animator Animator;
+    public Animator AnimatorLegs;
     private Vector2 moveVec;
+    private Vector2 mouseVec;
     private const int PPU = 64;
     
     void Start()
     {
         rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
+        
     }
 
     void Update()
     {
-        //UpdateAnimation();
         moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (Input.GetMouseButton((int) MouseButton.RightMouse))
-        {
-            var mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-            var playerPos = (Vector2) Camera.main.WorldToScreenPoint(transform.position);
-            var playerToMouseVec = (mousePos - playerPos).normalized;
-
-            rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
-        }
-        else
-        {
-            DirectionMove();
-        }
+        mouseVec = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
     }
-
-    /*private void LateUpdate()
-    {
-        rigidbody2D.position.x = (Mathf.Round(parent.position.x * PPU) / PPU) - parent.position.x; 
-        rigidbody2D.position.y = (Mathf.Round(parent.position.y * PPU) / PPU) - parent.position.y;
-    }*/
 
     void FixedUpdate()
     {
         Move();
-        //DirectionMove();
-    }
-
-    private void UpdateAnimation()
-    {
-        moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        var velocity = rigidbody2D.velocity;
-        
-        Animator.SetFloat("Speed", moveVec.magnitude);
-
-        if (Input.GetMouseButton((int) MouseButton.RightMouse))
-        {
-            var mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-            var playerPos = (Vector2) Camera.main.WorldToScreenPoint(transform.position);
-            var playerToMouseVec = (mousePos - playerPos).normalized;
-            
-            Animator.SetFloat("Horizontal", playerToMouseVec.x);
-            Animator.SetFloat("Vertical", playerToMouseVec.y);
-            Animator.SetFloat("HorizontalState", playerToMouseVec.x);
-            Animator.SetFloat("VerticalState", playerToMouseVec.y);
-        }
-        else
-        {
-            Animator.SetFloat("Horizontal", moveVec.x);
-            Animator.SetFloat("Vertical", moveVec.y);
-            if (velocity.magnitude > 0.2f)
-            {
-                Animator.SetFloat("HorizontalState", velocity.x);
-                Animator.SetFloat("VerticalState", velocity.y);
-            }
-        }
-        
-        
+        PlayerRotate();
     }
     
     void Move()
@@ -98,9 +51,19 @@ public class PlayerMove : MonoBehaviour
         rigidbody2D.velocity *= 0.75f;
     }
     
-    private void DirectionMove()
+    void PlayerRotate()
     {
-        if (rigidbody2D.velocity.magnitude > 0.2f)
-            rigidbody2D.rotation = Mathf.Atan2(rigidbody2D.velocity.y, rigidbody2D.velocity.x) * Mathf.Rad2Deg + 270;
+        if (Input.GetMouseButton((int) MouseButton.RightMouse))
+        {
+            var playerPos = (Vector2) Camera.main.WorldToScreenPoint(transform.position);
+            var playerToMouseVec = (mouseVec - playerPos).normalized;
+
+            rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
+        }
+        else
+        {
+            if (rigidbody2D.velocity.magnitude > 0.2f)
+                rigidbody2D.rotation = Mathf.Atan2(rigidbody2D.velocity.y, rigidbody2D.velocity.x) * Mathf.Rad2Deg + 270;
+        }
     }
 }

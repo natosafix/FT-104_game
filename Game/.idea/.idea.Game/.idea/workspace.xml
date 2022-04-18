@@ -2,146 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Circle.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Circle.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-left movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-left movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-right movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-right movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Left movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Left movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Legs Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Legs Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Right movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Right movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP-right movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP-right movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Up-left movement.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Up-left movement.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/ApartmentLevel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/ApartmentLevel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Bullet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Car.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Explosion.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Explosion.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Explosion.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Explosion.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Fireball.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Fireball.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Fireball.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Fireball/Fireball.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/Beetle.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/Beetle/Beetle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/Beetle/Beetle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/Beetle/Beetle_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/Beetle/Beetle_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/GiantBeetle.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/GiantBeetle/GiantBeetle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/GiantBeetle/GiantBeetle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/GiantBeetle/GiantBeetle.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Animation/GiantBeetle/GiantBeetle.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Maze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Maze.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Road.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Road.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/RoadTurn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/RoadTurn.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/ShotgunShell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/ShotgunShell.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Shoot.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Shoot.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character1/Character1_Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Shoot.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Shoot.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character2/Character2_Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Shoot.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Shoot.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Solider/Character3/Character3_Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/WoodCrate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/WoodCrate.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/hz1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/hz1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/hz2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/hz2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fireball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fireball.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Брусчатка.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Брусчатка.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/Player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,10 +29,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/07/67b65e77/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e8bc41cc811944f5bf64a91b09aa334bc5400/8a/dd40cd42/MouseButton.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -183,7 +56,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -222,6 +95,7 @@
       <workItem from="1649499161677" duration="5236000" />
       <workItem from="1649957491177" duration="2797000" />
       <workItem from="1650001345982" duration="1521000" />
+      <workItem from="1650280438915" duration="5748000" />
     </task>
     <servers />
   </component>
@@ -241,7 +115,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
