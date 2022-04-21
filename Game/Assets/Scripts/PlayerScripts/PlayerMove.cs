@@ -20,9 +20,7 @@ public class PlayerMove : MonoBehaviour
 {
     private Rigidbody2D rigidbody2D;
 
-    private float Acceleration = 10f;
-    public Animator Animator;
-    public Animator AnimatorLegs;
+    public float Acceleration = 40f;
     private Vector2 moveVec;
     private Vector2 mouseVec;
     private const int PPU = 64;
@@ -30,7 +28,6 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
-        
     }
 
     void Update()
@@ -62,8 +59,8 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            if (rigidbody2D.velocity.magnitude > 0.2f)
-                rigidbody2D.rotation = Mathf.Atan2(rigidbody2D.velocity.y, rigidbody2D.velocity.x) * Mathf.Rad2Deg + 270;
+            if (moveVec.magnitude > 0.2f)
+                rigidbody2D.rotation = Mathf.Atan2(moveVec.y, moveVec.x) * Mathf.Rad2Deg + 270;
         }
     }
 }

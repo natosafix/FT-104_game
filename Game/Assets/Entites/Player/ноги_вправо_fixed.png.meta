@@ -54,6 +54,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -340,6 +341,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_8": 6907743005361985855
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_9": 3870603965735296753
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_7": 3268737317870143193
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_6": -8185211254360387705
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_4": 4928061999985264151
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_1": 1280751672127647190
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_0": -856518335554529113
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_2": -8588024033654682254
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_5": 4136381967023525871
+      "\u043D\u043E\u0433\u0438_\u0432\u043F\u0440\u0430\u0432\u043E_fixed_3": 473098531392961965
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

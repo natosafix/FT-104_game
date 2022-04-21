@@ -2,22 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fnt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fontsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fontsettings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/boot.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/cowboy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/cowboy.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fireball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fireball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +117,8 @@
       <workItem from="1649957491177" duration="2797000" />
       <workItem from="1650001345982" duration="1521000" />
       <workItem from="1650280438915" duration="5748000" />
+      <workItem from="1650379238233" duration="1013000" />
+      <workItem from="1650538471192" duration="866000" />
     </task>
     <servers />
   </component>
