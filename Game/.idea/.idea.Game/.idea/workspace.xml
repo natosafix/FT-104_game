@@ -2,43 +2,200 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FPS Icons Pack/Light Theme/Light theme spritesheet 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fnt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fontsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.fontsettings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Lecompte/Lecompte.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/boot.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/ImpactEffect.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/ImpactEffect.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/ImpactEffect.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/ImpactEffect.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/KatanaAttack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/KatanaAttack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/KatanaAttack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/KatanaAttack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/katana_strong_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/katana_strong_attack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ImpactEffect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ImpactEffect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScipts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScipts/BulletMove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScipts/BulletMove.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/DestroyImpactEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/DestroyImpactEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector2DExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector2DExtension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/Animations/enemy_explosion.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/Animations/enemy_explosion.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 1/flame_a_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball 2/ffireball_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0009.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0013.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0016.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0017.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0018.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0021.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0022.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0023.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0025.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Flamethrower/flamethrower_0029.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/On Fire/onfire_0008.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/1/flashA6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/2/flash_b_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/2/flash_b_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/2/flash_b_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/2/flash_b_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/3/gunFlash1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Gun Flash/3/gunFlash1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/1h_smg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/1h_smg.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_boltgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_boltgun.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_gatling_invert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_gatling_invert.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_machinegun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_machinegun.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_rocket.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_shotgun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Guns/2h_shotgun.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0008.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0009.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/Bolt Strike/bolt_strike_0010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0008.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Lightning/bolt/bolt_tesla_0009.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Explosion.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/Beetle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Insects/GiantBeetle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Soldiers.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/cowboy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/cowboy.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+влево.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вверх+право.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз+вправо.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вниз_влево.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/ноги_вправо_fixed.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fireball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fireball.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Circle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Circle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Legs Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Legs Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Grungy/Bullet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Bullet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +206,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/PlayerShot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyImpactEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScipts/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector2DExtension.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -118,7 +280,10 @@
       <workItem from="1650001345982" duration="1521000" />
       <workItem from="1650280438915" duration="5748000" />
       <workItem from="1650379238233" duration="1013000" />
-      <workItem from="1650538471192" duration="866000" />
+      <workItem from="1650538471192" duration="3585000" />
+      <workItem from="1650554878938" duration="9901000" />
+      <workItem from="1650606705066" duration="3284000" />
+      <workItem from="1651055108223" duration="1219000" />
     </task>
     <servers />
   </component>
