@@ -3845,11 +3845,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1725716849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78bbfecae84da71439ba71cc988c065a, type: 3}
+  m_Script: {fileID: 11500000, guid: add3b81f3b00f4c4eb401afd34b2698e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Bounds: {fileID: 2092162133}
   Character: {fileID: 891401369}
+  Player: {fileID: 891401365}
+  bounds: {fileID: 2092162133}
 --- !u!50 &1725716853
 Rigidbody2D:
   serializedVersion: 4

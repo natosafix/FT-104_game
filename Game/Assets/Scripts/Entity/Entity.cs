@@ -6,10 +6,12 @@ public class Entity : MonoBehaviour
 {
     protected float HP { get; private set; }
     protected Transform thisTransform;
+    protected Rigidbody2D rigidbody2D;
 
     protected virtual void SetUp()
     {
-        thisTransform = transform;
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        thisTransform = GetComponent<Transform>();
     }
     
     public virtual void SetDamage(float damage)
@@ -19,5 +21,4 @@ public class Entity : MonoBehaviour
     {
         return HP > 0;
     }
-    
 }
