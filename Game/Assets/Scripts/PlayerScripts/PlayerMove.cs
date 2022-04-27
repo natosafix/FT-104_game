@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour
     
     void Start()
     {
-        rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     void Update()
