@@ -23,7 +23,6 @@ public class PlayerMove : Entity
     public PlayerStates State;
 
     private float coolDown;
-    private Rigidbody2D rigidbody2D;
     private Vector2 moveVec;
     private Vector2 mouseVec;
     
@@ -32,8 +31,6 @@ public class PlayerMove : Entity
     void Start()
     {
         SetUp();
-        
-        rigidbody2D = GetComponent<Rigidbody2D>();
         bulletStartPosTransform = StartBulletPos.transform;
     }
 
