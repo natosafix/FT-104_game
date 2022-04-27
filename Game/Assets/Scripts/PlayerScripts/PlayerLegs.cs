@@ -1,17 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using Vector2 = UnityEngine.Vector2;
 
 public class PlayerLegs : MonoBehaviour
 {
     public GameObject Player;
-    private Vector2 moveVec;
     public Animator Animator;
+
+    private Vector2 moveVec;
+    private Transform thisTransform;
+    private Transform playerTransform;
 
     void Start()
     {
         Player = GameObject.Find("Player");
+        playerTransform = Player.transform;
+        thisTransform = transform;
     }
 
     void Update()
@@ -22,7 +25,7 @@ public class PlayerLegs : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = Player.transform.position;
+        thisTransform.position = playerTransform.position;
     }
 
     private void UpdateAnimation()
