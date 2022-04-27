@@ -417,7 +417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490738199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.350654, y: -2.1066103, z: -1.553864}
+  m_LocalPosition: {x: -5.24, y: -7.01, z: -1.553864}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 891401369}
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 891401371}
   - component: {fileID: 891401367}
   - component: {fileID: 891401372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShotDelay: 0.2
   KatanaDelay: 0.8
-  Acceleration: 10
+  Acceleration: 40
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
   StartBulletPos: {fileID: 345690893}
   Weapon: {fileID: 1276487069}
@@ -3849,7 +3849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bounds: {fileID: 2092162133}
-  Character: {fileID: 0}
+  Character: {fileID: 891401369}
 --- !u!50 &1725716853
 Rigidbody2D:
   serializedVersion: 4
@@ -3909,7 +3909,7 @@ GameObject:
   - component: {fileID: 1948848529}
   - component: {fileID: 1948848528}
   - component: {fileID: 1948848531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5847,7 +5847,7 @@ GameObject:
   - component: {fileID: 2092162132}
   - component: {fileID: 2092162134}
   - component: {fileID: 2092162133}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}

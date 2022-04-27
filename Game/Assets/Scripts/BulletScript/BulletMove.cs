@@ -12,7 +12,8 @@ public class BulletMove : MonoBehaviour
     public float BulletSpeed = 10.0f;
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
-
+    private const int IgnoreLayers = 9;
+    private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
     
@@ -26,13 +27,16 @@ public class BulletMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (hitInfo is null)
+        Debug.Log(hitInfo.gameObject.layer);
+        if (hitInfo is null || hitInfo.gameObject.layer == IgnoreLayers)
             return;
-
-        if (hitInfo.tag == "AttackIgnore")
-            return;
-
         Instantiate(ImpactAnim, thisTransform.position, Quaternion.identity);
+        if (hitInfo.gameObject.layer == EnemyLayer)
+        { 
+            Entity enemy = hitInfo.gameObject.GetComponent<Entity>();
+            enemy.SetDamage(1f);
+        }
+
         DestroyShot();
     }
     

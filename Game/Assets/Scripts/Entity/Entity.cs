@@ -12,7 +12,7 @@ public class Entity : MonoBehaviour
         thisTransform = transform;
     }
     
-    protected virtual void SetDamage(float damage)
+    public virtual void SetDamage(float damage)
     { }
 
     protected virtual bool IsAlive()
