@@ -33,7 +33,10 @@ public class BulletMove : MonoBehaviour
     {
         if (hitInfo is null)
             return;
-        
+
+        if (hitInfo.tag == "AttackIgnore")
+            return;
+
         Instantiate(ImpactAnim, transform.position, Quaternion.identity);
         DestroyShot();
     }
