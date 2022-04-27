@@ -60,5 +60,7 @@ ShaderVariantCollection:
       variants:
       - keywords: 
         passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
       - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
         passType: 0
