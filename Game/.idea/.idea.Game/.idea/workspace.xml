@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal — копия.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsDiagonal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/LegsForward.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/main_char_body_5x.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_body_5x.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/main_char_legs_only.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Брусчатка.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/poison_spider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Player/poison_spider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,11 +45,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/main" />
+    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/main,-1447muo/BackupOnOldUnityVersion" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -115,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
