@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerIdle/PlayerIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerIdle/PlayerIdle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/Cowboy.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDown.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleDownRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUp.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerIdleUpRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDown.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveDownRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUp.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpLeft.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAnim/PlayerMoveUpRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/KatanaAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/KatanaAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerAttack/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerIdle/PlayerWithoutWeapon.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerIdle/PlayerWithoutWeapon.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/KatanaAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Player/KatanaAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
-    </list>
+    <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/PlayerShot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27b5869c9c51417495f4c4b6f58ecfd71f800/d0/7604c9af/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyImpactEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.spriteshape@7.0.4/Runtime/SpriteShapeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
