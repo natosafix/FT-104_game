@@ -48,6 +48,5 @@ public class BulletMove : MonoBehaviour
     void DestroyShot()
     {
         Destroy(gameObject);
-        Destroy(this);
     }
 }

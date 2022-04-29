@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
@@ -13,9 +14,11 @@ public class Entity : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         thisTransform = GetComponent<Transform>();
     }
-    
+
     public virtual void SetDamage(float damage)
-    { }
+    {
+        Destroy(gameObject, 0.3f);
+    }
 
     protected virtual bool IsAlive()
     {

@@ -21,7 +21,6 @@ public class PlayerMove : Entity
     public GameObject Weapon;
     public Animator BodyAnim;
     public PlayerStates State;
-
     private float coolDown;
     private Vector2 moveVec;
     private Vector2 mouseVec;
