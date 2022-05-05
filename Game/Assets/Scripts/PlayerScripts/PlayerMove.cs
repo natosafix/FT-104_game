@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Quaternion = UnityEngine.Quaternion;
@@ -20,15 +21,16 @@ public class PlayerMove : Entity
     public GameObject StartBulletPos;
     public GameObject Weapon;
     public Animator BodyAnim;
-    public PlayerStates State;
+    public PlayerStates State = PlayerStates.Katana;
     private float coolDown;
     private Vector2 moveVec;
     private Vector2 mouseVec;
-    
+    private bool isGunInInventory = false;
     private Transform bulletStartPosTransform;
     
     void Start()
     {
+        Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
     }
@@ -55,7 +57,7 @@ public class PlayerMove : Entity
             BodyAnim.SetInteger("PlayerState", (int) State);
             Weapon.GetComponent<Renderer>().enabled = false;
         }
-        if (Input.GetKey(KeyCode.Alpha2))
+        if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
         {
             State = PlayerStates.WithWeapon;
             Weapon.GetComponent<Renderer>().enabled = true;
@@ -86,7 +88,13 @@ public class PlayerMove : Entity
         }
         
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == 10)
+            isGunInInventory = true;
+    }
+
     void Move()
     {
         rigidbody2D.AddForce(moveVec.normalized * Acceleration);
