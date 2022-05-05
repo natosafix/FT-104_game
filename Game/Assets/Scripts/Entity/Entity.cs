@@ -17,7 +17,7 @@ public class Entity : MonoBehaviour
 
     public virtual void SetDamage(float damage)
     {
-        Destroy(gameObject, 0.3f);
+        Destroy(gameObject);
     }
 
     protected virtual bool IsAlive()

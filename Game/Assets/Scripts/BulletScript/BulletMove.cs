@@ -30,19 +30,17 @@ public class BulletMove : MonoBehaviour
         Debug.Log(hitInfo.gameObject.layer);
         if (hitInfo is null || hitInfo.gameObject.layer == IgnoreLayers)
             return;
-        Instantiate(ImpactAnim, thisTransform.position, Quaternion.identity);
         if (hitInfo.gameObject.layer == EnemyLayer)
         { 
-            Entity enemy = hitInfo.gameObject.GetComponent<Entity>();
+            var enemy = hitInfo.gameObject.GetComponent<Entity>();
             enemy.SetDamage(1f);
         }
-
         DestroyShot();
+        Instantiate(ImpactAnim, thisTransform.position, Quaternion.identity);
     }
-    
+
     void Update()
     {
-        
     }
     
     void DestroyShot()

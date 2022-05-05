@@ -12,7 +12,7 @@ public class Enemy : Entity
 {
     protected int bitmask = 1 << 8;
     
-    protected Transform target;
+    protected static Transform target;
     protected Collider2D Bounds;
     
     private EnemyState state = EnemyState.Patrol;
@@ -25,6 +25,11 @@ public class Enemy : Entity
     
     private Vector3 toTargetVec;
 
+    public static void EnemySetup(GameObject player)
+    {
+        target = player.transform;
+    }
+    
     protected virtual void UpdateState()
     {
         toTargetVec = target.position - thisTransform.position;

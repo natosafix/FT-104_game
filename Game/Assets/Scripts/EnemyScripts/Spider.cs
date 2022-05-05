@@ -9,9 +9,8 @@ public class Spider : Enemy
     {
         SetUp();
         aggroDistance = 5;
-        aggroSpeed = 1;
+        aggroSpeed = 4;
         patrolSpeed = 2;
-        target = Player.transform;
         Bounds = bounds;
     }
 

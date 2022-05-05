@@ -31,6 +31,7 @@ public class PlayerMove : Entity
     {
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
+        Enemy.EnemySetup(gameObject);
     }
 
     void Update()
