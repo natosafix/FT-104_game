@@ -33,6 +33,7 @@ public class PlayerMove : Entity
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
+        Enemy.EnemySetup(gameObject);
     }
 
     void Update()
