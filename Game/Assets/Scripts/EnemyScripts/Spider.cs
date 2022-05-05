@@ -11,7 +11,7 @@ public class Spider : Enemy
     {
         SetUp();
         aggroDistance = 10;
-        aggroSpeed = 10;
+        aggroSpeed = 12;
         patrolSpeed = 4;
         Bounds = bounds;
     }

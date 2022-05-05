@@ -152,7 +152,7 @@ MonoBehaviour:
   - {fileID: 6870703329995410094, guid: a6232f8b92f72034d94e4b72f71a2950, type: 3}
   - {fileID: 2303101333210351805, guid: 6078591cad0272e4b8efcc442bd103fa, type: 3}
   - {fileID: 76491769592279200, guid: cbb436c01011240439e670e7bf7350d7, type: 3}
-  AttackDistance: 7
+  AttackDistance: 6.3
 --- !u!70 &1767639933847847619
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -368,12 +368,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.045550093, y: 0.18870476}
+    - - {x: -0.004652649, y: 0.22619411}
       - {x: -0.1030997, y: 0.12494469}
       - {x: -0.065753564, y: 0.0952299}
       - {x: 0.058560576, y: 0.05539514}
       - {x: 0.17551777, y: 0.046253454}
-      - {x: 0.11950268, y: 0.1884361}
+      - {x: 0.16835244, y: 0.22138134}
 --- !u!114 &1767639934381367156
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -109,14 +109,15 @@ public class PlayerMove : Entity
     
     void PlayerRotate()
     {
-        if (Input.GetMouseButton((int) MouseButton.RightMouse))
+        //if (Input.GetMouseButton((int) MouseButton.RightMouse))
         {
             var playerPos = (Vector2) Camera.main.WorldToScreenPoint(thisTransform.position);
             var playerToMouseVec = (mouseVec - playerPos).normalized;
 
             rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
         }
-        else
+        return;
+        //else
         {
             if (moveVec.magnitude > 0.2f)
                 rigidbody2D.rotation = Mathf.Atan2(moveVec.y, moveVec.x) * Mathf.Rad2Deg + 270;
