@@ -27,11 +27,10 @@ public class BulletMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Debug.Log(hitInfo.gameObject.layer);
         if (hitInfo is null || hitInfo.gameObject.layer == IgnoreLayers)
             return;
         if (hitInfo.gameObject.layer == EnemyLayer)
-        { 
+        {
             var enemy = hitInfo.gameObject.GetComponent<Entity>();
             enemy.SetDamage(1f);
         }

@@ -2,106 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorClose.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorClose.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorOpen.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/DoorOpen.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/door (4)_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/DoorAnim/door (4)_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Tileset.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/door (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/door (4).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/outside_wall_no_border2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/outside_wall_no_border2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_down.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_right.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_up.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Tileset_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/corner4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/door_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/floor1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/floor1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/outside_wall_no_border2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_down.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_down.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_right.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_right.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_up.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/wall_up.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Attack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Attack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/demon1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/demon1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Bleeding.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Bleeding.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/BloodOnDeath.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/BloodOnDeath.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_attack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_attack.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_death.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_idle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodOnDeath.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodOnDeath.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/floor1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/floor1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,14 +104,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/07/67b65e77/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -194,6 +184,7 @@
       <workItem from="1651211840299" duration="2693000" />
       <workItem from="1651211811295" duration="3752000" />
       <workItem from="1651772144390" duration="3066000" />
+      <workItem from="1651816977653" duration="758000" />
     </task>
     <servers />
   </component>

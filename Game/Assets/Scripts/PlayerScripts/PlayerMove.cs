@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
@@ -33,11 +34,14 @@ public class PlayerMove : Entity
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
-        Enemy.EnemySetup(gameObject);
+        Enemy.EnemiesSetupTarget(this);
+        EnemyAttack.InitialisePlayer(this);
     }
 
     void Update()
     {
+        if (!IsAlive())
+            return;
         UpdateAnim();
         moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         mouseVec = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
@@ -45,6 +49,8 @@ public class PlayerMove : Entity
 
     void FixedUpdate()
     {
+        if (!IsAlive())
+            return;
         Move();
         PlayerRotate();
         Attack();
@@ -87,7 +93,6 @@ public class PlayerMove : Entity
                 coolDown = ShotDelay;
                 break;
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -104,17 +109,23 @@ public class PlayerMove : Entity
     
     void PlayerRotate()
     {
-        if (Input.GetMouseButton((int) MouseButton.RightMouse))
+        //if (Input.GetMouseButton((int) MouseButton.RightMouse))
         {
             var playerPos = (Vector2) Camera.main.WorldToScreenPoint(thisTransform.position);
             var playerToMouseVec = (mouseVec - playerPos).normalized;
 
             rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
         }
-        else
+        return;
+        //else
         {
             if (moveVec.magnitude > 0.2f)
                 rigidbody2D.rotation = Mathf.Atan2(moveVec.y, moveVec.x) * Mathf.Rad2Deg + 270;
         }
+    }
+
+    protected override void DestroyObject()
+    {
+        SceneManager.LoadScene("TestScene");
     }
 }
