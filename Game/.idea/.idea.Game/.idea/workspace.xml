@@ -2,98 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/demon1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/demon1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Bleeding.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Bleeding.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/BloodOnDeath.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/BloodOnDeath.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_attack.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_death.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_death.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Demon1/demon1_idle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodOnDeath.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodOnDeath.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0002.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0003.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0005.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/1/blood_a_0006.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0004.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/2/blood_b_0005.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/floor1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/floor1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,15 +15,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,7 +49,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -185,6 +95,7 @@
       <workItem from="1651211811295" duration="3752000" />
       <workItem from="1651772144390" duration="3066000" />
       <workItem from="1651816977653" duration="758000" />
+      <workItem from="1652339112021" duration="300000" />
     </task>
     <servers />
   </component>
@@ -204,7 +115,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

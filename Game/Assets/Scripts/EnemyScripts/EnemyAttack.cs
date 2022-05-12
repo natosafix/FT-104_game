@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     private static Entity Player;
+    public Entity NPC;
     
     void Start()
     {
@@ -10,6 +11,14 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
+        if (!NPC.IsAlive())
+            Destroy(gameObject);
+    }
+    
+    void FixedUpdate()
+    {
+        if (!NPC.IsAlive())
+            Destroy(gameObject);
     }
 
     public static void InitialisePlayer(Entity player)
@@ -19,6 +28,9 @@ public class EnemyAttack : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!NPC.IsAlive())
+            Destroy(gameObject);
+        
         var obj = other.gameObject.GetComponent<Entity>();
         
         if (obj == Player)

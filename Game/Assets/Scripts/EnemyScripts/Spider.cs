@@ -48,12 +48,10 @@ public class Spider : Enemy
 
     private void Attack()
     {
-        
         if (state == EnemyState.Patrol)
             return;
 
         var distanceToPlayer = (Target.thisTransform.position - thisTransform.position).magnitude;
-        Debug.Log(distanceToPlayer);
         if (distanceToPlayer <= AttackDistance)
             Animator.SetTrigger("Attack");
     }
