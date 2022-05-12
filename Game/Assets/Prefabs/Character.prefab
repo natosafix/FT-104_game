@@ -313,6 +313,7 @@ Transform:
   m_Children:
   - {fileID: 1039832946334194723}
   - {fileID: 1039832945711752834}
+  - {fileID: 8000274571280811876}
   m_Father: {fileID: 1039832947654060964}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -384,9 +385,13 @@ MonoBehaviour:
   thisTransform: {fileID: 0}
   ShotDelay: 0.2
   KatanaDelay: 0.8
+  FireballDelay: 1
   Acceleration: 60
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
+  Fireball: {fileID: 6435858772776663341, guid: 9739b43ef3e5f5d46b1b3b63725ea321,
+    type: 3}
   StartBulletPos: {fileID: 1039832947532769969}
+  FireballStartPos: {fileID: 4745915292395615052}
   Weapon: {fileID: 1039832946334194721}
   BodyAnim: {fileID: 1039832946985094432}
   State: 0
@@ -533,4 +538,34 @@ Transform:
   - {fileID: 1039832946985094437}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4745915292395615052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8000274571280811876}
+  m_Layer: 6
+  m_Name: FireballStartPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8000274571280811876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745915292395615052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0029034233, y: 0.183, z: 0.28021497}
+  m_LocalScale: {x: 0.74415845, y: 0.74415845, z: 0.74415845}
+  m_Children: []
+  m_Father: {fileID: 1039832946985094437}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

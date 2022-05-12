@@ -5,6 +5,40 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Fireball.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/Fireball.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBehaviour.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBehaviour.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballExplosion.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballExplosion.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/PlayerCastSpell.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/PlayerCastSpell.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/spell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/spell.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fireball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fireball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DoorHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0007.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0007.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0009.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Flames/Fireball Hit/ffireball_hit_0009.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +50,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/3e/b49c8321/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,6 +62,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/43/6a7908c1/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,6 +138,10 @@
       <workItem from="1651772144390" duration="3066000" />
       <workItem from="1651816977653" duration="758000" />
       <workItem from="1652339112021" duration="300000" />
+      <workItem from="1651816977653" duration="1500000" />
+      <workItem from="1652193115482" duration="5147000" />
+      <workItem from="1652344889294" duration="1927000" />
+      <workItem from="1652373745736" duration="10576000" />
     </task>
     <servers />
   </component>

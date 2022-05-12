@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2552824838472801664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7445819276534032093}
+  m_Layer: 6
+  m_Name: FireballStartPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7445819276534032093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552824838472801664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.002, y: 0.165, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3315066482042699155}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3315066481302804023
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,6 +226,7 @@ Transform:
   m_Children:
   - {fileID: 3315066481921846421}
   - {fileID: 3315066481302804020}
+  - {fileID: 7445819276534032093}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -262,10 +293,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b700f38179f8aa94f9027309dbe59c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Animator: {fileID: 0}
+  DeadAnim: {fileID: 0}
+  thisTransform: {fileID: 0}
   ShotDelay: 0.2
   KatanaDelay: 0.8
   Acceleration: 40
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
+  Fireball: {fileID: 6435858772776663341, guid: 9739b43ef3e5f5d46b1b3b63725ea321,
+    type: 3}
   StartBulletPos: {fileID: 3315066482585377287}
   Weapon: {fileID: 3315066481921846423}
   BodyAnim: {fileID: 3315066482042699158}
