@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public int Damage = 25;
+    [Header("Settings")]
     public float FireballSpeed = 3.0f;
-    public float DestroyTime = 4.0f;
+    public float DestroyTime = 40.0f;
+    
+    [Header("Anim")]
     public GameObject ImpactAnim;
+
+    [Header("Sounds")] 
+    public AudioClip SpawnBall;
+    public AudioClip BallFlight;
+    
+    
     private HashSet<int> IgnoreLayers = new HashSet<int> {6, 9, 10};
     private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
+    private AudioSource audioSource;
     private bool isSpawned;
     private float spawnDelay = 0.55f;
     
@@ -20,7 +28,10 @@ public class Fireball : MonoBehaviour
     {
         thisTransform = transform;
         rigidbody2D = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         Invoke(nameof(DestroyShot), DestroyTime);
+        audioSource.PlayOneShot(SpawnBall);
+        audioSource.PlayOneShot(BallFlight);
     }
 
     private void OnTriggerEnter2D(Collider2D hitInfo)

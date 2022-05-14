@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class TakeGun : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip TakeSound;
+    
+    private AudioSource audioSource;
+
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -21,7 +23,9 @@ public class TakeGun : MonoBehaviour
     {
         if (other.gameObject.layer == 6)
         {
-            Destroy(this.gameObject);
+            audioSource.PlayOneShot(TakeSound);
+            GetComponent<Renderer>().enabled = false;
+            Destroy(this.gameObject, 1);
         }
     }
 }

@@ -1,20 +1,19 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class KatanaAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip[] WallHitSounds;
+    public AudioClip[] EnemyHitSounds;
+
+    private AudioSource audioSource;
+    
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,7 +21,18 @@ public class KatanaAttack : MonoBehaviour
         if (other.gameObject.layer == 7)
         {
             var enemy = other.GetComponent<Enemy>();
-            enemy.SetDamage(1);
+            if (enemy != null && enemy.IsAlive())
+            {
+                var i = Random.Range(0, EnemyHitSounds.Length);
+                audioSource.PlayOneShot(EnemyHitSounds[i]);
+                
+                enemy.SetDamage(1);
+            }
+        }
+        else
+        {
+            var i = Random.Range(0, WallHitSounds.Length);
+            audioSource.PlayOneShot(WallHitSounds[i]);
         }
     }
 }

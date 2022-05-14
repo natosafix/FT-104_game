@@ -5,7 +5,10 @@ public class Spider : Enemy
     public GameObject Player;
     public Collider2D bounds;
     public GameObject[] BloodsEffects;
+    public AudioClip[] DeadSounds;
     public float AttackDistance = 2f;
+
+    private AudioSource audioSource;
     
     void Start()
     {
@@ -14,6 +17,8 @@ public class Spider : Enemy
         aggroSpeed = 6;
         patrolSpeed = 3;
         Bounds = bounds;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -31,9 +36,13 @@ public class Spider : Enemy
     protected override void DestroyObject()
     {
         rigidbody2D.velocity = Vector2.zero;
-        var rand = Random.Range(0, BloodsEffects.Length);
-        Instantiate(BloodsEffects[rand], thisTransform.position, Quaternion.identity);
+        var randBloodIdx = Random.Range(0, BloodsEffects.Length);
+        Instantiate(BloodsEffects[randBloodIdx], thisTransform.position, Quaternion.identity);
+        
+        var randDeadSoundIdx = Random.Range(0, DeadSounds.Length);
+        audioSource.PlayOneShot(DeadSounds[randDeadSoundIdx]);
         Destroy(bounds.gameObject);
+        
         base.DestroyObject();
     }
 

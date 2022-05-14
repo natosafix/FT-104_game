@@ -9,8 +9,8 @@ public class Entity : MonoBehaviour
     public Animator Animator;
     public GameObject DeadAnim;
     
-    protected float HP { get; private set; }
     public Transform thisTransform;
+    protected float HP { get; private set; }
     protected Rigidbody2D rigidbody2D;
 
     protected virtual void SetUp()

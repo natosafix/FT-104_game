@@ -17,17 +17,32 @@ public enum PlayerStates
 
 public class PlayerMove : Entity
 {
-    public float ShotDelay = 0.2f;
+    [Header("Player Settings")]
+    public float ShotDelay = 0.4f;
     public float KatanaDelay = 0.8f;
     public float FireballDelay = 1.0f;
     public float Acceleration = 40f;
+    
+    
     public GameObject Bullet;
     public GameObject Fireball;
     public GameObject StartBulletPos;
     public GameObject FireballStartPos;
     public GameObject Weapon;
-    public Animator BodyAnim;
+    
     public PlayerStates State = PlayerStates.Katana;
+
+    [Header("Audio Effects")]
+    public AudioClip[] KatanaAttackClip;
+    public AudioClip ShotGun;
+    public AudioClip DeadSound;
+    public AudioClip TakeKatana;
+    public AudioClip TakeShootGun;
+    public AudioClip SpellCast;
+
+    private AudioSource audioSource;
+    private Animator bodyAnim;
+
     private float shotCoolDown;
     private float spellCoolDown;
     private Vector2 moveVec;
@@ -37,6 +52,8 @@ public class PlayerMove : Entity
     private Transform fireballStartPosTransform;
     private bool isSpellCasted = false;
     
+    private static bool isFirstStart = true;
+    
     void Start()
     {
         Weapon.GetComponent<Renderer>().enabled = false;
@@ -45,6 +62,14 @@ public class PlayerMove : Entity
         fireballStartPosTransform = FireballStartPos.transform;
         Enemy.EnemiesSetupTarget(this);
         EnemyAttack.InitialisePlayer(this);
+
+        audioSource = GetComponent<AudioSource>();
+        bodyAnim = GetComponent<Animator>();
+        
+        if (!isFirstStart)
+            audioSource.PlayOneShot(DeadSound);
+
+        isFirstStart = false;
     }
 
     void Update()
@@ -52,9 +77,6 @@ public class PlayerMove : Entity
         if (!IsAlive())
             return;
         UpdateAnim();
-        moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        mouseVec = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        //Attack();
     }
 
     void FixedUpdate()
@@ -73,26 +95,30 @@ public class PlayerMove : Entity
 
     void UpdateAnim()
     {
-        Debug.Log(isSpellCasted);
-        Debug.Log(spellCoolDown);
         if (Input.GetKey(KeyCode.Alpha1) || isSpellCasted && spellCoolDown <= 0)
         {
-            State = PlayerStates.Katana;
-            BodyAnim.SetInteger("PlayerState", (int) State);
-            Weapon.GetComponent<Renderer>().enabled = false;
             isSpellCasted = false;
+            if (State is PlayerStates.Katana)
+                return;
+            State = PlayerStates.Katana;
+            audioSource.PlayOneShot(TakeKatana);
+            bodyAnim.SetInteger("PlayerState", (int) State);
+            Weapon.GetComponent<Renderer>().enabled = false;
         }
         if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
         {
+            if (State is PlayerStates.WithWeapon)
+                return;
             State = PlayerStates.WithWeapon;
+            audioSource.PlayOneShot(TakeShootGun);
             Weapon.GetComponent<Renderer>().enabled = true;
-            BodyAnim.SetInteger("PlayerState", (int) State);
+            bodyAnim.SetInteger("PlayerState", (int) State);
         }
         if (Input.GetKey(KeyCode.G) && !isSpellCasted && spellCoolDown <= 0)
         {
             State = PlayerStates.CastSpell;
             Weapon.GetComponent<Renderer>().enabled = false;
-            BodyAnim.SetInteger("PlayerState", (int) State);
+            bodyAnim.SetInteger("PlayerState", (int) State);
         }
     }
 
@@ -108,23 +134,29 @@ public class PlayerMove : Entity
             case PlayerStates.Katana:
                 if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
                     break;
-                BodyAnim.SetTrigger("KatanaAttack");
+
+                var i = Random.Range(0, KatanaAttackClip.Length);
+                audioSource.PlayOneShot(KatanaAttackClip[i]);
+                
+                bodyAnim.SetTrigger("KatanaAttack");
                 shotCoolDown = KatanaDelay;
                 rigidbody2D.AddForce(Vector2.up.Rotate(rigidbody2D.rotation) * 10, ForceMode2D.Impulse);
                 break;
             case PlayerStates.WithWeapon:
                 if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
                     break;
+                audioSource.PlayOneShot(ShotGun);
                 Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
                 shotCoolDown = ShotDelay;
                 break;
             case PlayerStates.CastSpell:
                 if (spellCoolDown > 0 || isSpellCasted)
                     break;
-                BodyAnim.SetTrigger("SpellAttack");
+                bodyAnim.SetTrigger("SpellAttack");
                 isSpellCasted = true;
                 Instantiate(Fireball, fireballStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
                 spellCoolDown = FireballDelay;
+                State = PlayerStates.Katana;
                 break;
         }
     }
@@ -132,34 +164,31 @@ public class PlayerMove : Entity
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == 10)
+        {
             isGunInInventory = true;
+        }
+        
     }
 
     void Move()
     {
+        moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         rigidbody2D.AddForce(moveVec.normalized * Acceleration);
         rigidbody2D.velocity *= 0.75f;
     }
     
     void PlayerRotate()
     {
-        //if (Input.GetMouseButton((int) MouseButton.RightMouse))
-        {
-            var playerPos = (Vector2) Camera.main.WorldToScreenPoint(thisTransform.position);
-            var playerToMouseVec = (mouseVec - playerPos).normalized;
+        mouseVec = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        var playerPos = (Vector2) Camera.main.WorldToScreenPoint(thisTransform.position);
+        var playerToMouseVec = (mouseVec - playerPos).normalized;
 
-            rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
-        }
-        return;
-        //else
-        {
-            if (moveVec.magnitude > 0.2f)
-                rigidbody2D.rotation = Mathf.Atan2(moveVec.y, moveVec.x) * Mathf.Rad2Deg + 270;
-        }
+        rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
     }
 
     protected override void DestroyObject()
     {
         SceneManager.LoadScene("TestScene");
     }
+
 }
