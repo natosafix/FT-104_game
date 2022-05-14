@@ -12,7 +12,7 @@ public class BulletMove : MonoBehaviour
     public float BulletSpeed = 10.0f;
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
-    private const int IgnoreLayers = 10;
+    private HashSet<int> IgnoreLayers = new HashSet<int> { 9, 10, 11, 12};
     private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
@@ -27,7 +27,7 @@ public class BulletMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (hitInfo is null || hitInfo.gameObject.layer == IgnoreLayers)
+        if (hitInfo is null || IgnoreLayers.Contains(hitInfo.gameObject.layer))
             return;
         if (hitInfo.gameObject.layer == EnemyLayer)
         {

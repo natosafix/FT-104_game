@@ -7,6 +7,11 @@ public static class Vector2DExtension
     {
         return Mathf.Atan2(vector.y, vector.x) * Mathf.Rad2Deg;
     }
+    
+    public static float GetAngle(this Vector3 vector)
+    {
+        return Mathf.Atan2(vector.y, vector.x) * Mathf.Rad2Deg;
+    }
 
     public static float AngleBetween(this Vector2 vector1, Vector2 vector2)
     {

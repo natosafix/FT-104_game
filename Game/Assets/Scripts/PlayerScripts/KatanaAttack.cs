@@ -21,6 +21,7 @@ public class KatanaAttack : MonoBehaviour
     {
         if (other.gameObject.layer == 7)
         {
+            Debug.Log("HELLO");
             var enemy = other.GetComponent<Enemy>();
             enemy.SetDamage(1);
         }

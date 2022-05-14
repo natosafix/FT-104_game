@@ -35,7 +35,7 @@ public class PlayerMove : Entity
     private bool isGunInInventory = false;
     private Transform bulletStartPosTransform;
     private Transform fireballStartPosTransform;
-    private bool isSpellCasted = false;
+    public bool isSpellCasted = false;
     
     void Start()
     {
@@ -73,8 +73,6 @@ public class PlayerMove : Entity
 
     void UpdateAnim()
     {
-        Debug.Log(isSpellCasted);
-        Debug.Log(spellCoolDown);
         if (Input.GetKey(KeyCode.Alpha1) || isSpellCasted && spellCoolDown <= 0)
         {
             State = PlayerStates.Katana;

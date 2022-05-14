@@ -10,7 +10,7 @@ public class Spider : Enemy
     void Start()
     {
         SetUp();
-        aggroDistance = 7;
+        aggroDistance = 10;
         aggroSpeed = 6;
         patrolSpeed = 3;
         Bounds = bounds;
@@ -18,13 +18,14 @@ public class Spider : Enemy
 
     void Update()
     {
-        if (IsAlive())
-            UpdateState();
+        //if (IsAlive())
+           
     }
 
     void FixedUpdate()
     {
         if (IsAlive())
+            UpdateState();
             Move();
     }
 

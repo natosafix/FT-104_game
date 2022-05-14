@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767639933847847621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3782997, y: -0.35729694, z: 0}
-  m_LocalScale: {x: 5.554707, y: 5.554707, z: 5.554707}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.545257, y: 5.545257, z: 5.545257}
   m_Children:
   - {fileID: 1767639934381367162}
   m_Father: {fileID: 1767639933877747693}
@@ -142,7 +142,9 @@ MonoBehaviour:
   Animator: {fileID: 1767639933847847618}
   DeadAnim: {fileID: 0}
   thisTransform: {fileID: 0}
-  Player: {fileID: 0}
+  directionVec: {x: 0, y: 0}
+  startWayPoint: {fileID: 0}
+  Player: {fileID: 3315066482042699167, guid: dc15d8dfef52c7d40ac64af2c64e9fc2, type: 3}
   bounds: {fileID: 1767639934092467899}
   BloodsEffects:
   - {fileID: 1817811118587071984, guid: 37c52d1b0599d4043b6fe34aec49636a, type: 3}
@@ -193,8 +195,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767639933877747692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.680935, y: -4.7818604, z: -4.2711763}
-  m_LocalScale: {x: 0.5280911, y: 0.5280911, z: 0.5280911}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 1767639933847847622}
   - {fileID: 1767639934092467898}
