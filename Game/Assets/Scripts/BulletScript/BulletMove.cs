@@ -12,7 +12,8 @@ public class BulletMove : MonoBehaviour
     public float BulletSpeed = 10.0f;
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
-    private HashSet<int> IgnoreLayers = new HashSet<int> { 9, 10, 11, 12};
+    public GameObject DemonExplosionAnim;
+    private HashSet<int> ignoreLayers = new HashSet<int>(){6, 9, 10, 11, 12};
     private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
@@ -27,15 +28,22 @@ public class BulletMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (hitInfo is null || IgnoreLayers.Contains(hitInfo.gameObject.layer))
+        if (hitInfo is null || ignoreLayers.Contains(hitInfo.gameObject.layer))
             return;
         if (hitInfo.gameObject.layer == EnemyLayer)
         {
             var enemy = hitInfo.gameObject.GetComponent<Entity>();
+            if (enemy is null || !enemy.IsAlive())
+                return;
             enemy.SetDamage(1f);
+            Instantiate(DemonExplosionAnim, thisTransform.position, Quaternion.identity);
+        }
+        else
+        {
+            if (thisTransform != null)
+                Instantiate(ImpactAnim, thisTransform.position, Quaternion.identity);
         }
         DestroyShot();
-        Instantiate(ImpactAnim, thisTransform.position, Quaternion.identity);
     }
 
     void Update()

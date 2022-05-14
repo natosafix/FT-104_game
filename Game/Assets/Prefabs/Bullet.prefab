@@ -103,6 +103,8 @@ MonoBehaviour:
   DestroyTime: 2
   ImpactAnim: {fileID: 576541482192575199, guid: b83ccaf30b5c6824a8a2e803105d00d2,
     type: 3}
+  DemonExplosionAnim: {fileID: 5718268634984150320, guid: f3097fe9f47528d41b76d3b52b5bb37b,
+    type: 3}
 --- !u!61 &1102750484690379706
 BoxCollider2D:
   m_ObjectHideFlags: 0

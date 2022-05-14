@@ -18,11 +18,585 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/CameraPostProcessing.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/CameraPostProcessing.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/Crosshair.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/Crosshair.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/crosshair 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/crosshair 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/crosshair.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Crosshair/crosshair.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/DemonExplosion.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/DemonExplosion.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Explosion.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Explosion.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Death Is The Answer.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Death Is The Answer.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Forever.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Forever.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Homecoming.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Homecoming.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Step By Step.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Step By Step.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/StreetLove.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/StreetLove.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Stupid_Dancer.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Stupid_Dancer.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_FULL_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_FULL_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/01_Revelation/01_TR_Revelation_LOOP_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_FULL_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_FULL_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/04_ElectricPhase/04_TR_ElectricPhase_LOOP_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_FULL_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_FULL_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/05_HyperDrive/05_TR_HyperDrive_LOOP_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_FULL_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_FULL_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/06_8-bitHero/06_TR_8-bitHero_LOOP_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_FULL_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/TR_SYNTHWAVE/07_RETROWAVE/WAV_TR_07_RETROWAVE_LOOP_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/The Chosen One.MP3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/The Chosen One.MP3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Zephyr.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/BackgroundMusics/Zephyr.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Bloody punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Bloody punch.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 8.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Hit &amp; Damage 9.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Monster Bite.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Demon/Monster Bite.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Door.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Door/DarknessContact 8-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Door/DarknessContact 8-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Door/Secret door.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Door/Secret door.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-48.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-48.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-49.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/DM-CGS-49.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Explosion 8.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade10Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade10Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade1Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade1Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade2Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade2Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade3Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade3Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade4Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade4Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade5Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade5Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade6Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade6Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade7Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade7Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade8Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade8Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade9Short.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/Explosion/Grenade9Short.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BladeDeflection3-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BladeDeflection3-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact-MetalClank4-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact-MetalClank4-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact6-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact6-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact8-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/BluntImpact8-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/DM-CGS-46.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/DM-CGS-46.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/DM-CGS-47.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/DM-CGS-47.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Punched2-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Punched2-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Slice-MetalClank2-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Slice-MetalClank2-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Swing1-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Swing1-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Swing4-Free-1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/KatanaAttack/Swing4-Free-1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Bullet Impact 14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Bullet Impact 14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Bullet Impact 21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Bullet Impact 21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Flare gun 5-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Flare gun 5-2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun 3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun_6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Hand Gun_6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Metal impact 5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/ShotgunAttack/Metal impact 5.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/DarknessContact 1-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/DarknessContact 1-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Earthquake 3 - Big.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Earthquake 3 - Big.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/F_Light_fire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/F_Light_fire.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Magic Spell - Turn to stone.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Magic Spell - Turn to stone.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Magic Spell_Simple Swoosh_6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/SpellAttack/Magic Spell_Simple Swoosh_6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/WeaponReload.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/WeaponReload/DM-CGS-19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/WeaponReload/DM-CGS-19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/WeaponReload/Indiana Jones Punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/WeaponReload/Indiana Jones Punch.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_concrete_4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_dirt_4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_metal_4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_sand_4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_5.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Effects/footsteps/footstep_wood_6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Cavern Atmosphere - Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Cavern Atmosphere - Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Computer explosion 6 - Alarm.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Computer explosion 6 - Alarm.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Easy Going Medieval Tavern - Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Easy Going Medieval Tavern - Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/F_wind_shine.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/F_wind_shine.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Forest 6 - Ice Forest.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Forest 6 - Ice Forest.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Ice Cavern-Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Ice Cavern-Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Medieval City.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Medieval City.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Thunder strikes 30 second- Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Enviroment/Thunder strikes 30 second- Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 10-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 10-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 3-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 3-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 4-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 4-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 5-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 5-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 6-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 6-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 7-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 7-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 9-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessContact/DarknessContact 9-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 1-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 1-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 10-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 10-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 11-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 11-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 12-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 12-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 13-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 13-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 14-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 14-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 15-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 15-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 16-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 16-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 17-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 17-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 18-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 18-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 19-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 19-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 2-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 2-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 20-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 20-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 21-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 21-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 22-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 22-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 23-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 23-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 24-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 24-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 25-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 25-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 3-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 3-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 4-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 4-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 5-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 5-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 6-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 6-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 7-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 7-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 8-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 8-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 9-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessImpаct/DarknessImpаct 9-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 1-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 1-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 10-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 10-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 11-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 11-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 12-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 12-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 13-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 13-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 14-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 14-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 15-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 15-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 16-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 16-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 17-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 17-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 18-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 18-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 19-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 19-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 2-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 2-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 20-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 20-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 3-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 3-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 4-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 4-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 5-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 5-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 6-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 6-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 7-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 7-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 8-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 8-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 9-Audio.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/DarknessShot/DarknessShot 9-Audio.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness5.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness8.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dark Magic/Elixir Darkness/Elixir Darkness9.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/crosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/crosshair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Autocannon - Shot 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Autocannon - Shot 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Bullet Impacts - Multiple 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Bullet Impacts - Multiple 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Cannon impact 9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Cannon impact 9.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Carriage on Stone Road - Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Carriage on Stone Road - Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Chemistry reaction 3 - Big.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Chemistry reaction 3 - Big.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Dragon Spit Fire 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Dragon Spit Fire 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Ghost Manifestation 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Ghost Manifestation 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Ghost Manifestation 2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Ghost Manifestation 2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Heavy Object Impact 10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Heavy Object Impact 10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Heavy Object Impact 4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Heavy Object Impact 4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Gun Salve.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Gun Salve.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Impact Light_6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Impact Light_6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Multiple shots 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Laser Multiple shots 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Machine Gun 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Machine Gun 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell - Sleeping spell 1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell - Sleeping spell 1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Coins_2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Coins_2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Electricity Spell_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Electricity Spell_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Short Reverse_1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Magic Spell_Short Reverse_1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Metal Impact 7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Metal Impact 7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Missile - Shot 4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Missile - Shot 4.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Monster Bite on Armor.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Monster Bite on Armor.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Railgun - Shot 6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Railgun - Shot 6.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Row Boat - Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Row Boat - Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Spaceship passing by.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Spaceship passing by.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Tsunami hitting a Large City.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Free Pack/Tsunami hitting a Large City.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BackgroundMusic.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BackgroundMusic.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Particle System.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/crosshair.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/crosshair.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/CrosshairTracking.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_dirty.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_dirty.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_foggysweep.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_foggysweep.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_ghost.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_ghost.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_lightfire.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_lightfire.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_rock.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_rock.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_spark.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_spark.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_supermushroom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_supermushroom.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_thruder.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_thruder.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_thunder.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ball_thunder.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Blue_broke.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Blue_broke.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_GhostFire_ball.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_GhostFire_ball.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ice_polish.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Ice_polish.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Line_light.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Line_light.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Rune_phenix.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_Rune_phenix.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_flash_steam.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_flash_steam.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_line.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_line.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_little_Thunder.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_little_Thunder.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_mud.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_mud.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_purple_arrow.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_purple_arrow.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_ultimate_water.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tazo_sfx/_flight/F_ultimate_water.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/FootSteps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/FootSteps/footstep02.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/FootSteps/footstep02.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Shoot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Shoot/gun_shoot.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Shoot/gun_shoot.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Audio/Zombie/Dead/dead4.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-left movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-left movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-right movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Down-right movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Left movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Left movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Right movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Right movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP-right movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/UP-right movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Up-left movement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerLegsAnim/Up-left movement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VectorExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VectorExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0002.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0005.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0006.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownGunPack/Sprites/Blood Splatter/3/splatter_1_0007.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +629,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/f1/31dbf256/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/0f/d36b9540/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/786821b0938c4bfea80d171fc0609243c800/04/ed583a25/NavMeshBuildSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/786821b0938c4bfea80d171fc0609243c800/2c/1d5457a6/NavMeshBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/68089899e4c84456bfc1de3436accf4a765c00/b8/f9bece0f/NavMeshBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,6 +724,8 @@
       <workItem from="1652429070900" duration="2823000" />
       <workItem from="1652432738386" duration="7376000" />
       <workItem from="1652511758905" duration="30764000" />
+      <workItem from="1652420753920" duration="1605000" />
+      <workItem from="1652517340128" duration="17372000" />
     </task>
     <servers />
   </component>
