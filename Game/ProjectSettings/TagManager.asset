@@ -22,6 +22,7 @@ TagManager:
   - TransparentFX
   - Ignore Raycast
   - Water
+  - Water
   - UI
   - Player
   - Enemy
@@ -30,8 +31,6 @@ TagManager:
   - Gun
   - Floor
   - WayPoint
-  - 
-  - 
   - 
   - 
   - 

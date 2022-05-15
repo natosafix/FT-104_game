@@ -16,7 +16,7 @@ public class Fireball : MonoBehaviour
     public AudioClip BallFlight;
     
     
-    private HashSet<int> IgnoreLayers = new HashSet<int> {6, 9, 10};
+    private HashSet<int> ignoreLayers = new HashSet<int>(){6, 9, 10, 11, 12};
     private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
@@ -36,7 +36,7 @@ public class Fireball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        if (IgnoreLayers.Contains(hitInfo.gameObject.layer))
+        if (ignoreLayers.Contains(hitInfo.gameObject.layer))
             return;
         if (hitInfo.gameObject.layer == EnemyLayer)
         {

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6038538465323250595}
   - component: {fileID: 6038538465323250594}
   - component: {fileID: 6038538465323250593}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 6038538466183307796}
   - component: {fileID: 6038538466183307798}
   - component: {fileID: 6038538466183307797}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: DoorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
