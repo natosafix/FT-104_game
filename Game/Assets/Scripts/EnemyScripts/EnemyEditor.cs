@@ -5,7 +5,7 @@ using System.Numerics;
 using UnityEngine;
 using UnityEditor;
 using Vector3 = UnityEngine.Vector3;
-
+/*
 [CustomEditor(typeof(Spider))]
 public class EnemyEditor : Editor
 {
