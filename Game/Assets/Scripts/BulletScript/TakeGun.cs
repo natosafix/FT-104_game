@@ -25,6 +25,7 @@ public class TakeGun : MonoBehaviour
         {
             audioSource.PlayOneShot(TakeSound);
             GetComponent<Renderer>().enabled = false;
+            GetComponent<Light>().enabled = false;
             Destroy(this.gameObject, 1);
         }
     }

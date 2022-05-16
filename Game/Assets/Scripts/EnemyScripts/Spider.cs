@@ -30,15 +30,18 @@ public class Spider : Enemy
     void FixedUpdate()
     {
         if (IsAlive())
+        {
             UpdateState();
             Move();
+        }
     }
 
     protected override void DestroyObject()
     {
         rigidbody2D.velocity = Vector2.zero;
         var randBloodIdx = Random.Range(0, BloodsEffects.Length);
-        Instantiate(BloodsEffects[randBloodIdx], thisTransform.position, Quaternion.identity);
+        var tmp = thisTransform.position;
+        Instantiate(BloodsEffects[randBloodIdx], new Vector3(tmp.x, tmp.y, 0), Quaternion.identity);
         
         var randDeadSoundIdx = Random.Range(0, DeadSounds.Length);
         audioSource.PlayOneShot(DeadSounds[randDeadSoundIdx]);

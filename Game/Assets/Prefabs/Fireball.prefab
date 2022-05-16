@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1509573871467737515}
   - component: {fileID: 3639223682258944381}
   - component: {fileID: 6642993090561865333}
+  - component: {fileID: 1032860786993150559}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -139,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d0d082318b92594a83c0cc6a4b63213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireballSpeed: 3
-  DestroyTime: 40
+  FireballSpeed: 4
+  DestroyTime: 4
   ImpactAnim: {fileID: 8191652225090175712, guid: 60b3e1c31868f8f41ad8cd2a2eb8b15b,
     type: 3}
   SpawnBall: {fileID: 8300000, guid: 6b2f5e232b0be01449b826110c3ad7ec, type: 3}
@@ -218,7 +219,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.618
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -258,3 +259,65 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!108 &1032860786993150559
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435858772776663341}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.5560701, b: 0, a: 1}
+  m_Intensity: 8.96
+  m_Range: 4.46
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0

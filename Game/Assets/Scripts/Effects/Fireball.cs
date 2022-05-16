@@ -5,8 +5,8 @@ using UnityEngine;
 public class Fireball : MonoBehaviour
 {
     [Header("Settings")]
-    public float FireballSpeed = 3.0f;
-    public float DestroyTime = 40.0f;
+    public float FireballSpeed = 4.0f;
+    public float DestroyTime = 4.0f;
     
     [Header("Anim")]
     public GameObject ImpactAnim;
@@ -29,9 +29,10 @@ public class Fireball : MonoBehaviour
         thisTransform = transform;
         rigidbody2D = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
-        Invoke(nameof(DestroyShot), DestroyTime);
         audioSource.PlayOneShot(SpawnBall);
         audioSource.PlayOneShot(BallFlight);
+        
+        Destroy(gameObject, DestroyTime);
     }
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
@@ -43,11 +44,9 @@ public class Fireball : MonoBehaviour
             var enemy = hitInfo.gameObject.GetComponent<Entity>();
             enemy.SetDamage(1f);
         }
-        DestroyShot();
-        Instantiate(ImpactAnim, thisTransform.position, 
-            Quaternion.Euler(0, 0, Random.Range(0, 180)));
+        Destroy(gameObject);
     }
-
+    
     void Update()
     {
         if (isSpawned)
@@ -61,8 +60,9 @@ public class Fireball : MonoBehaviour
         rigidbody2D.AddForce(new Vector2(0, 1).Rotate(rigidbody2D.rotation).normalized * FireballSpeed, ForceMode2D.Impulse);
     }
     
-    void DestroyShot()
+    void OnDestroy()
     {
-        Destroy(gameObject);
+        Instantiate(ImpactAnim, thisTransform.position, 
+            Quaternion.Euler(0, 0, Random.Range(0, 180)));
     }
 }
