@@ -13,7 +13,7 @@ public class BulletMove : MonoBehaviour
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
     public GameObject DemonExplosionAnim;
-    private HashSet<int> ignoreLayers = new HashSet<int>{6, 9, 10, 11, 12};
+    private HashSet<int> ignoreLayers = new HashSet<int>{0, 6, 9, 10, 11, 12};
     private const int EnemyLayer = 7;
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;

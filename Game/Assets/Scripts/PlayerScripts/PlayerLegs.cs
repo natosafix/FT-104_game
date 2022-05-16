@@ -37,7 +37,7 @@ public class PlayerLegs : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        Animator.SetFloat("Speed", moveVec.magnitude);
+        Animator.SetFloat("Speed", playerRigidbody2D.velocity.magnitude);
         Animator.SetFloat("Horizontal", moveVec.x);
         Animator.SetFloat("Vertical", moveVec.y);
     }
