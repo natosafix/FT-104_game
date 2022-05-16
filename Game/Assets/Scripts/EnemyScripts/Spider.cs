@@ -29,9 +29,9 @@ public class Spider : Enemy
 
     void FixedUpdate()
     {
-        if (IsAlive())
-            UpdateState();
-            Move();
+        if (!IsAlive()) return;
+        UpdateState();
+        Move();
     }
 
     protected override void DestroyObject()
@@ -47,7 +47,7 @@ public class Spider : Enemy
         base.DestroyObject();
     }
 
-    public override void Move()
+    protected override void Move()
     {
         if (IsAlive())
         {

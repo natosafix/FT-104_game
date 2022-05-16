@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <workItem from="1652511758905" duration="30764000" />
       <workItem from="1652420753920" duration="1605000" />
       <workItem from="1652517340128" duration="17372000" />
-      <workItem from="1652688562487" duration="3873000" />
+      <workItem from="1652688562487" duration="6918000" />
     </task>
     <servers />
   </component>
@@ -152,50 +147,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs</url>
-          <line>68</line>
-          <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\EnemyScripts\Enemy.cs" initialLine="68" containingFunctionPresentation="method 'UpdateState'">
-            <startOffsets>
-              <option value="1856" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1884" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs</url>
-          <line>96</line>
-          <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\EnemyScripts\Enemy.cs" initialLine="96" containingFunctionPresentation="method 'AggroBehaviour'">
-            <startOffsets>
-              <option value="2840" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2856" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs</url>
-          <line>129</line>
-          <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\EnemyScripts\Enemy.cs" initialLine="129" containingFunctionPresentation="method 'PatrolBehaviour'">
-            <startOffsets>
-              <option value="4338" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4430" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

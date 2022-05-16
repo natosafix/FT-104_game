@@ -9,7 +9,7 @@ public class Entity : MonoBehaviour
     public Animator Animator;
     public GameObject DeadAnim;
     
-    public Transform thisTransform;
+    public Transform thisTransform; 
     protected float HP { get; private set; }
     protected Rigidbody2D rigidbody2D;
 

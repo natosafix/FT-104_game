@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
@@ -16,9 +16,9 @@ public class EnemyEditor : Editor
         {
             Handles.color = Color.magenta;
             var position = spider.thisTransform.position;
-            //Handles.DrawLine(position, (Vector2) position + spider.directionVec * 0.4f);
             Handles.DrawLine(position + (Vector3)spider.directionVec * 0.3f, position + (Vector3)spider.directionVec * 0.3f 
                                                                              + (Vector3)spider.directionVec * 0.2f);
         }
     }
 }
+*/
