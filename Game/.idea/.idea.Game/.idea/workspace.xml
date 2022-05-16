@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/Death.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Effects/BulletBang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Effects/BulletBang.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/PlayerBodyAnim/KatanaAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponGround.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +120,7 @@
       <workItem from="1652420753920" duration="1605000" />
       <workItem from="1652517340128" duration="17372000" />
       <workItem from="1652688562487" duration="3873000" />
-      <workItem from="1652697540103" duration="3491000" />
+      <workItem from="1652697540103" duration="5381000" />
     </task>
     <servers />
   </component>
@@ -172,7 +150,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs</url>
-          <line>162</line>
+          <line>158</line>
           <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\EnemyScripts\Enemy.cs" initialLine="68" containingFunctionPresentation="method 'UpdateState'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>

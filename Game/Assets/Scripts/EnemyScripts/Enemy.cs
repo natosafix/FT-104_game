@@ -73,7 +73,7 @@ public class Enemy : Entity
         var hitTarget = Physics2D.BoxCast(thisTransform.position, new Vector2(0.55f, 0.55f), 0,
             Target.thisTransform.position - thisTransform.position, aggroDistance, 
             1 << 6 | 1 << 8);
-        if (hitTarget.collider.gameObject.layer == 6 || 
+        if (hitTarget.collider?.gameObject?.layer == 6 || 
             toTargetVec.magnitude < aggroDistance && pathToTarget != currentWayPoint)
         {
             wasAggred = true;
@@ -154,10 +154,6 @@ public class Enemy : Entity
         {
             return;
         }
-        Debug.Log(currentWayPoint);
-        Debug.Log(Vector2.Distance(currentWayPoint.Position, thisTransform.position));
-        Debug.Log(hitWalls.collider);
-        Debug.Log("-------");
         if (Vector2.Distance(currentWayPoint.Position, thisTransform.position) > 0.1f && hitWalls.collider == null)
         {
             rigidbody2D.rotation = Mathf.Atan2(directionVec.y, directionVec.x) * Mathf.Rad2Deg + 270;

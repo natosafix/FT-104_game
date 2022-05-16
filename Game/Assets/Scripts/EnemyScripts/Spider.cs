@@ -34,11 +34,14 @@ public class Spider : Enemy
             UpdateState();
             Move();
         }
+        else
+        {
+            rigidbody2D.velocity = Vector2.zero;
+        }
     }
 
     protected override void DestroyObject()
     {
-        rigidbody2D.velocity = Vector2.zero;
         var randBloodIdx = Random.Range(0, BloodsEffects.Length);
         var tmp = thisTransform.position;
         Instantiate(BloodsEffects[randBloodIdx], new Vector3(tmp.x, tmp.y, 0), Quaternion.identity);
@@ -46,8 +49,8 @@ public class Spider : Enemy
         var randDeadSoundIdx = Random.Range(0, DeadSounds.Length);
         audioSource.PlayOneShot(DeadSounds[randDeadSoundIdx]);
         Destroy(bounds.gameObject);
-        
         base.DestroyObject();
+        
     }
 
     public override void Move()
