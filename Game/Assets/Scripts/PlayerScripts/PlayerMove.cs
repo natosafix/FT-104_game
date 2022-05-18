@@ -6,7 +6,6 @@ using Quaternion = UnityEngine.Quaternion;
 using Random = UnityEngine.Random;
 using Vector2 = UnityEngine.Vector2;
 
-
 public enum PlayerStates
 {
     Katana = 0,
@@ -29,6 +28,7 @@ public class PlayerMove : Entity
     public GameObject StartBulletPos;
     public GameObject FireballStartPos;
     public GameObject Weapon;
+    public GameObject WeaponPanel;
     
     public PlayerStates State = PlayerStates.Katana;
 
@@ -51,11 +51,13 @@ public class PlayerMove : Entity
     private Transform bulletStartPosTransform;
     private Transform fireballStartPosTransform;
     public bool isSpellCasted = false;
-    
+    private int weaponNum;
+
     private static bool isFirstStart = true;
     
     void Start()
     {
+        WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
@@ -104,6 +106,7 @@ public class PlayerMove : Entity
             audioSource.PlayOneShot(TakeKatana);
             bodyAnim.SetInteger("PlayerState", (int) State);
             Weapon.GetComponent<Renderer>().enabled = false;
+            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
         if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
         {
@@ -113,12 +116,14 @@ public class PlayerMove : Entity
             audioSource.PlayOneShot(TakeShootGun);
             Weapon.GetComponent<Renderer>().enabled = true;
             bodyAnim.SetInteger("PlayerState", (int) State);
+            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 2;
         }
         if (Input.GetKey(KeyCode.G) && !isSpellCasted && spellCoolDown <= 0)
         {
             State = PlayerStates.CastSpell;
             Weapon.GetComponent<Renderer>().enabled = false;
             bodyAnim.SetInteger("PlayerState", (int) State);
+            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
     }
 
