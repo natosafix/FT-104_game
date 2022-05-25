@@ -14,7 +14,7 @@ public class Spider : Enemy
     {
         SetUp();
         aggroDistance = 10;
-        aggroSpeed = 6;
+        aggroSpeed = 3;
         patrolSpeed = 3;
         Bounds = bounds;
 
@@ -36,7 +36,7 @@ public class Spider : Enemy
         }
         else
         {
-            rigidbody2D.velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
 

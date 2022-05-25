@@ -39,4 +39,51 @@ public static class BFS
         }
         return start;
     }
+
+    public static WayPoint FindPath2(this Entity start, Entity target, float aggroDistance)
+    {
+        var track = new Dictionary<WayPoint, WayPoint>();
+        var queue = new Queue<WayPoint>();
+        foreach (var wayPoint in start.GetClosestWayPoints())
+        {
+            track[wayPoint] = null;
+            queue.Enqueue(wayPoint);
+        }
+
+        while (queue.Count > 0)
+        {
+            var currentPoint = queue.Dequeue();
+
+            if (currentPoint.TryHit(target, 1 << 6 | 1 << 8, out var hitInfo, 0.55f, aggroDistance))
+                return StartPointInTrack(currentPoint, track);
+            foreach (var point in currentPoint.Neighbours.Where(x => !track.ContainsKey(x)))
+            {
+                track[point] = currentPoint;
+                queue.Enqueue(point);
+            }
+        }
+
+        return null;
+    }
+
+    private static IEnumerable<WayPoint> GetClosestWayPoints(this Entity entity)
+    {
+        var wayPoints = Physics2D.OverlapBoxAll(entity.thisTransform.position, 
+            new Vector2(1f, 1f), 0f, 1 << 12);
+        var sortedPoints = wayPoints
+            .OrderBy(x => (x.transform.position - entity.thisTransform.position).magnitude)
+            .Select(x => x.GetComponent<WayPoint>());
+        return sortedPoints;
+    }
+
+    private static WayPoint StartPointInTrack(this WayPoint point, Dictionary<WayPoint, WayPoint> track)
+    {
+        WayPoint prev = null;
+        while (point != null)
+        {
+            prev = point;
+            point = track[point];
+        }
+        return prev;
+    }
 }

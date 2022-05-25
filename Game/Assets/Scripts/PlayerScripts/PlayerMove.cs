@@ -88,7 +88,7 @@ public class PlayerMove : Entity
         Attack();
         if (isSpellCasted)
         {
-            rigidbody2D.velocity = Vector2.zero;
+            thisRigidbody2D.velocity = Vector2.zero;
             return;
         }
         Move();
@@ -145,13 +145,13 @@ public class PlayerMove : Entity
                 
                 bodyAnim.SetTrigger("KatanaAttack");
                 shotCoolDown = KatanaDelay;
-                rigidbody2D.AddForce(Vector2.up.Rotate(rigidbody2D.rotation) * 10, ForceMode2D.Impulse);
+                thisRigidbody2D.AddForce(Vector2.up.Rotate(thisRigidbody2D.rotation) * 10, ForceMode2D.Impulse);
                 break;
             case PlayerStates.WithWeapon:
                 if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
                     break;
                 audioSource.PlayOneShot(ShotGun);
-                Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
+                Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, thisRigidbody2D.rotation));
                 shotCoolDown = ShotDelay;
                 break;
             case PlayerStates.CastSpell:
@@ -159,7 +159,7 @@ public class PlayerMove : Entity
                     break;
                 bodyAnim.SetTrigger("SpellAttack");
                 isSpellCasted = true;
-                Instantiate(Fireball, fireballStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
+                Instantiate(Fireball, fireballStartPosTransform.position, Quaternion.Euler(0, 0, thisRigidbody2D.rotation));
                 spellCoolDown = FireballDelay;
                 State = PlayerStates.Katana;
                 break;
@@ -178,8 +178,8 @@ public class PlayerMove : Entity
     void Move()
     {
         moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        rigidbody2D.AddForce(moveVec.normalized * Acceleration);
-        rigidbody2D.velocity *= 0.75f;
+        thisRigidbody2D.AddForce(moveVec.normalized * Acceleration);
+        thisRigidbody2D.velocity *= 0.75f;
     }
     
     void PlayerRotate()
@@ -188,7 +188,7 @@ public class PlayerMove : Entity
         var playerPos = (Vector2) Camera.main.WorldToScreenPoint(thisTransform.position);
         var playerToMouseVec = (mouseVec - playerPos).normalized;
 
-        rigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
+        thisRigidbody2D.rotation = Mathf.Atan2(playerToMouseVec.y, playerToMouseVec.x) * Mathf.Rad2Deg + 270;
     }
 
     protected override void DestroyObject()

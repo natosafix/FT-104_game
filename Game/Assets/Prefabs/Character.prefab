@@ -603,6 +603,7 @@ MonoBehaviour:
   StartBulletPos: {fileID: 1039832947532769969}
   FireballStartPos: {fileID: 4745915292395615052}
   Weapon: {fileID: 1039832946334194721}
+  WeaponPanel: {fileID: 0}
   State: 0
   KatanaAttackClip:
   - {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}

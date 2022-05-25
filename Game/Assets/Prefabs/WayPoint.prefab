@@ -70,5 +70,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4697026e9c79142b253920accb3643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Neighbours: []
   Position: {x: 0, y: 0}

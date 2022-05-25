@@ -29,7 +29,7 @@ public class KatanaAttack : MonoBehaviour
                 enemy.SetDamage(1);
             }
         }
-        else
+        else if (other.gameObject.layer == 8)
         {
             var i = Random.Range(0, WallHitSounds.Length);
             audioSource.PlayOneShot(WallHitSounds[i]);
