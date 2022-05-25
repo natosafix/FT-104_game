@@ -49,8 +49,8 @@ public static class MonoBehaviourExtension
         var origin = (Vector2) start.transform.position;
         var vecDir = ((Vector2) target.transform.position - origin).normalized;
         hitInfo = Physics2D.BoxCast(origin, new Vector2(raySize, raySize), 
-            vecDir.GetAngle(), vecDir, maxDist, layerMask);
-        return hitInfo.collider != null && hitInfo.collider?.gameObject.layer == target.gameObject.layer;
+            0, vecDir, maxDist, layerMask);
+        return hitInfo.collider != null && hitInfo.collider.gameObject.layer == target.gameObject.layer;
     }
 }
     
