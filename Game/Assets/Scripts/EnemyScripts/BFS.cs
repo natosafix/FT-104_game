@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class BFS
 {
-    public static WayPoint FindPath(WayPoint start, Transform target, float aggroDistance)
+    public static WayPoint FindPath(WayPoint start, Transform target, Enemy enemy, float aggroDistance)
     {
         var targetWayPoint = target.gameObject.GetComponent<WayPoint>();
         var track = new Dictionary<WayPoint, WayPoint>();
@@ -16,10 +16,11 @@ public static class BFS
         {
             var currentPoint = queue.Dequeue();
             var toTargetVec = (Vector2) target.position - currentPoint.Position;
-            var hit = Physics2D.BoxCast(currentPoint.Position, new Vector2(0.55f, 0.55f), 0,
-                toTargetVec, aggroDistance, 1 << 8 | 1 << 6);
+            var hit = enemy.TryHit(target.GetComponent<MonoBehaviour>(), 1 << 6 | 1 << 8, aggroDistance);
+            //var hit = Physics2D.BoxCast(currentPoint.Position, new Vector2(0.9f, 0.5f), 0,
+            //    toTargetVec, aggroDistance, 1 << 8 | 1 << 6);
             if (hit.collider != null && hit.collider.gameObject.layer == 6 || currentPoint == targetWayPoint)
-                return StartPointInTrack(currentPoint, track);
+                return StartPointInTrack(currentPoint, track) ?? start;
             foreach (var point in currentPoint.Neighbours
                 .Where(x => !track.ContainsKey(x))
                 .OrderByDescending(x => (x.transform.position - target.position).magnitude))
@@ -45,7 +46,7 @@ public static class BFS
         {
             var currentPoint = queue.Dequeue();
 
-            if (currentPoint.TryHit(target, 1 << 6 | 1 << 8, out var hitInfo, 0.55f, aggroDistance))
+            //if (currentPoint.TryHit(target, 1 << 6 | 1 << 8, out var hitInfo, 0.55f, aggroDistance))
                 return StartPointInTrack(currentPoint, track);
             foreach (var point in currentPoint.Neighbours.Where(x => !track.ContainsKey(x)))
             {

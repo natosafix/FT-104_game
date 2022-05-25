@@ -45,16 +45,12 @@ public class Entity : MonoBehaviour
 
 public static class MonoBehaviourExtension
 {
-    public static bool TryHit(this MonoBehaviour start, MonoBehaviour target, int layerMask, 
-        out RaycastHit2D hitInfo, float raySize = 0.55f, float maxDist = Mathf.Infinity)
+    public static RaycastHit2D TryHit(this Entity start, MonoBehaviour target, int layerMask, float maxDist = Mathf.Infinity)
     {
         var origin = (Vector2) start.transform.position;
         var vecDir = ((Vector2) target.transform.position - origin).normalized;
-        hitInfo = Physics2D.BoxCast(origin, start.GetComponent<Collider2D>().bounds.size, 
-            0, vecDir, maxDist, layerMask);
-        if (start.gameObject.layer == 7)
-            Debug.Log(start.GetComponent<Collider2D>().bounds.size);
-        return hitInfo.collider != null && hitInfo.collider.gameObject.layer == target.gameObject.layer;
+        return Physics2D.BoxCast(origin, new Vector2(start.ThisCollider2D.bounds.size.x, 0.1f), 
+            0, vecDir, Mathf.Infinity, layerMask);
     }
 }
     

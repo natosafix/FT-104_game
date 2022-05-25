@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entity/Entity.cs" afterDir="false" />
     </list>
@@ -38,6 +39,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9a/d91c074c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/43/6a7908c1/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/16/89f9cb27/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/43/ed98fb74/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -63,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/natosafix_work,-1447muo/AddFireball,-1447muo/main,-1447muo/BackupOnOldUnityVersion,-1447muo/Fix-BFS" />
+    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/natosafix_work,-1447muo/AddFireball,-1447muo/main,-1447muo/BackupOnOldUnityVersion,-1447muo/Fix-BFS,-1447muo/BFS-work" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -129,7 +131,7 @@
       <workItem from="1652697540103" duration="5381000" />
       <workItem from="1653042033040" duration="12952000" />
       <workItem from="1653131365359" duration="1086000" />
-      <workItem from="1653487553465" duration="682000" />
+      <workItem from="1653487553465" duration="6436000" />
     </task>
     <servers />
   </component>

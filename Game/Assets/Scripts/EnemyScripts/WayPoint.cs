@@ -16,8 +16,13 @@ public class WayPoint : MonoBehaviour
             new Vector2(0.1f, 0.1f), 0f, 1 << 12);
         Neighbours = colliders
             .Select(x => x.gameObject.GetComponent<WayPoint>())
-            .Where(x => x.gameObject != gameObject && x.TryHit(this, 1 << 8, out _, 
-                maxDist: Vector2.Distance(x.Position, Position)) == false)
+            .Where(x =>
+            {
+                var vecDir = (x.Position - Position).normalized;
+                var hitInfo = Physics2D.BoxCast(x.Position, new Vector2(0.9f, 0.1f), 
+                    0, vecDir, 1f, 1 << 8);
+                return x.gameObject != gameObject && hitInfo.collider == null;
+            })
             .ToArray();
     }
 
