@@ -16,7 +16,8 @@ public class WayPoint : MonoBehaviour
             new Vector2(0.1f, 0.1f), 0f, 1 << 12);
         Neighbours = colliders
             .Select(x => x.gameObject.GetComponent<WayPoint>())
-            .Where(x => x.gameObject != gameObject)
+            .Where(x => x.gameObject != gameObject && x.TryHit(this, 1 << 8, out _, 
+                maxDist: Vector2.Distance(x.Position, Position)) == false)
             .ToArray();
     }
 

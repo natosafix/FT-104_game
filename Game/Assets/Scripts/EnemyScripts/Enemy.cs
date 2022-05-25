@@ -67,9 +67,9 @@ public class Enemy : Entity
             return;
         }
         toTargetVec = Target.thisTransform.position - thisTransform.position;
-        pathToTarget = this.FindPath2(Target, 3.0f);
-        //pathToTarget = BFS.FindPath(currentWayPoint, Target.thisTransform, 3.0f);
-        if (this.TryHit(Target, 1 << 6 | 1 << 8, out hitTarget))
+        pathToTarget = BFS.FindPath(currentWayPoint, Target.thisTransform, 3.0f);
+        if (this.TryHit(Target, 1 << 6 | 1 << 8, out hitTarget, 0.6f) || 
+            toTargetVec.magnitude < aggroDistance && pathToTarget != currentWayPoint)
         {
             wasAggred = true;
             state = EnemyState.Aggro;
@@ -106,7 +106,7 @@ public class Enemy : Entity
             var nextPosVec = (currentWayPoint.Position - currentPosition).normalized;
             nextPos = currentPosition + nextPosVec * (aggroSpeed * Time.deltaTime);
             var hitEnemies = Physics2D.BoxCast(currentPosition + nextPosVec * 0.5f,
-                new Vector2(0.3f, 0.3f), 0, nextPosVec, 0.1f, 1 << 7);
+                new Vector2(0.5f, 0.1f), 0, nextPosVec, 0.1f, 1 << 7);
             if (hitEnemies.collider != null)
             {
                 ChangeDirection(currentWayPoint);
@@ -141,7 +141,7 @@ public class Enemy : Entity
             return;
         }
         var hitWalls = Physics2D.BoxCast((Vector2)thisTransform.position + directionVec.normalized * 0.5f,
-            new Vector2(0.3f, 0.3f), 0, directionVec, 0.2f, bitmask);
+            new Vector2(this.ThisCollider2D.bounds.size.x, 0.2f), 0, directionVec, 0.2f, bitmask);
         if (Vector2.Distance(currentWayPoint.Position, thisTransform.position) > 0.1f && hitWalls.collider == null)
         {
             thisRigidbody2D.rotation = Mathf.Atan2(directionVec.y, directionVec.x) * Mathf.Rad2Deg + 270;

@@ -11,11 +11,13 @@ public class Entity : MonoBehaviour
     
     public Transform thisTransform; 
     public Rigidbody2D thisRigidbody2D;
+    public Collider2D ThisCollider2D;
     protected float HP { get; private set; }
 
     protected virtual void SetUp()
     {
         HP = 1;
+        ThisCollider2D = GetComponent<Collider2D>();
         thisRigidbody2D = GetComponent<Rigidbody2D>();
         thisTransform = GetComponent<Transform>();
     }
@@ -48,8 +50,10 @@ public static class MonoBehaviourExtension
     {
         var origin = (Vector2) start.transform.position;
         var vecDir = ((Vector2) target.transform.position - origin).normalized;
-        hitInfo = Physics2D.BoxCast(origin, new Vector2(raySize, raySize), 
+        hitInfo = Physics2D.BoxCast(origin, start.GetComponent<Collider2D>().bounds.size, 
             0, vecDir, maxDist, layerMask);
+        if (start.gameObject.layer == 7)
+            Debug.Log(start.GetComponent<Collider2D>().bounds.size);
         return hitInfo.collider != null && hitInfo.collider.gameObject.layer == target.gameObject.layer;
     }
 }
