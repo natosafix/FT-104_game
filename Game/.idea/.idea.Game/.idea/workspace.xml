@@ -1,9 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="5894166d-b784-4133-a681-2257c82b3793" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+=======
+    <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Materials/wall_vertical.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Materials/wall_vertical.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/WallCorner2_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls2_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3CorneSquarer_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_White.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3_White.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1red.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floor1red.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal_brown.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal_brown.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal_white.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_horizontal_white.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical_brown.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical_brown.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical_white.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/wall_vertical_white.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_Wall_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_Wall_00.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/IGL Free TileSet/Brick Wall/Brick_wall_04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_Wall_00.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_Wall_00.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_02.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_02.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_03.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_03.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_04.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Brick_wall_04.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Dirt_Path_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Dirt_Path_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_A_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_A_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_B.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_B.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_C.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_C.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Base_Basecolor_C.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_01_Leaves_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_A.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_A.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_B.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_B.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_C.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_C.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Base_Basecolor_C.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Grass_Dense_Tint_02_Leaves_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Materials/Grass_Dense_Tint_01_Leaves_B_Basecolor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Materials/Grass_Dense_Tint_01_Leaves_B_Basecolor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Materials/Wood_Planks_A_Basecolor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Materials/Wood_Planks_A_Basecolor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_C_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_C_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_C_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Rock_Volcanic_C_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Base_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Base_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Base_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Base_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Shell_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Shell_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Shell_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Beach_Shell_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Base_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Base_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Base_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Base_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Shell_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Shell_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Shell_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Sand_Underwater_Shell_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_A.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_A.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_A.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_B.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_B.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_B.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_C.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_C.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_C.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_D.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_D.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Brick_Basecolor_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_C_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_C_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_C_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wall_Stone_C_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Plain_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_A_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_A_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_A_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_A_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_B_Basecolor.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_B_Basecolor.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_B_Basecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Wood_Planks_B_Basecolor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2487.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2487.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2501.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2501.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2514.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2514.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g25191.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g25191.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2541.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2541.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g25411.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g25411.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2560.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2560.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2580.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2580.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2586.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2586.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2658.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/g2658.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1841.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1888.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1888.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1630.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1630.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1661.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1732.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1732.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25191.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2658.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Pink/g2658.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3262.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3309.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/corner1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/corner2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/corner3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/corner4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/corner4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/wall_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +413,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/../../Unity Test/MazeUnity/Assets/Scripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4c5a6552ee3e423aa509a1d67235df501b800/16/a2e50f1f/RaycastHit2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +486,38 @@
       <workItem from="1648884718064" duration="839000" />
       <workItem from="1648887938246" duration="616000" />
       <workItem from="1648890997847" duration="5005000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1649071644316" duration="1349000" />
+      <workItem from="1649396694483" duration="613000" />
+      <workItem from="1649499161677" duration="5236000" />
+      <workItem from="1649957491177" duration="2797000" />
+      <workItem from="1650001345982" duration="1521000" />
+      <workItem from="1650280438915" duration="5748000" />
+      <workItem from="1651076554500" duration="4602000" />
+      <workItem from="1651171810917" duration="1511000" />
+      <workItem from="1651211840299" duration="2693000" />
+      <workItem from="1651211811295" duration="3752000" />
+      <workItem from="1651772144390" duration="3066000" />
+      <workItem from="1651816977653" duration="758000" />
+      <workItem from="1652339112021" duration="300000" />
+      <workItem from="1651816977653" duration="1500000" />
+      <workItem from="1652193115482" duration="5147000" />
+      <workItem from="1652344889294" duration="1927000" />
+      <workItem from="1652373745736" duration="10576000" />
+      <workItem from="1652422143377" duration="1551000" />
+      <workItem from="1652429070900" duration="2823000" />
+      <workItem from="1652432738386" duration="7376000" />
+      <workItem from="1652511758905" duration="30764000" />
+      <workItem from="1652420753920" duration="1605000" />
+      <workItem from="1652517340128" duration="17372000" />
+      <workItem from="1652688562487" duration="3873000" />
+      <workItem from="1652697540103" duration="5381000" />
+      <workItem from="1653042033040" duration="12952000" />
+      <workItem from="1653131365359" duration="1086000" />
+      <workItem from="1653487553465" duration="682000" />
+      <workItem from="1653488590885" duration="4267000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

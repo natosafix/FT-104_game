@@ -17,10 +17,58 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
         var moveVec = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         var velocity = rigidbody2D.velocity;
         
         if (velocity.magnitude > 0.5f)
+=======
+        if (!IsAlive())
+            return;
+        UpdateAnim();
+    }
+
+    void FixedUpdate()
+    {
+        Debug.Log(this.HP);
+        if (!IsAlive())
+            return;
+        Debug.Log(123);
+        Attack();
+        if (isSpellCasted)
+        {
+            thisRigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+        Move();
+        PlayerRotate();
+    }
+
+    void UpdateAnim()
+    {
+        if (Input.GetKey(KeyCode.Alpha1) || isSpellCasted && spellCoolDown <= 0)
+        {
+            isSpellCasted = false;
+            if (State is PlayerStates.Katana)
+                return;
+            State = PlayerStates.Katana;
+            audioSource.PlayOneShot(TakeKatana);
+            bodyAnim.SetInteger("PlayerState", (int) State);
+            Weapon.GetComponent<Renderer>().enabled = false;
+            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+        }
+        if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
+        {
+            if (State is PlayerStates.WithWeapon)
+                return;
+            State = PlayerStates.WithWeapon;
+            audioSource.PlayOneShot(TakeShootGun);
+            Weapon.GetComponent<Renderer>().enabled = true;
+            bodyAnim.SetInteger("PlayerState", (int) State);
+            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 2;
+        }
+        if (Input.GetKey(KeyCode.G) && !isSpellCasted && spellCoolDown <= 0)
+>>>>>>> Stashed changes
         {
             Animator.SetFloat("HorizontalState", velocity.x);
             Animator.SetFloat("VerticalState", velocity.y);
