@@ -12,7 +12,25 @@ public class PlayerMove : MonoBehaviour
     
     void Start()
     {
+<<<<<<< Updated upstream
         rigidbody2D = rigidbody2D = GetComponent<Rigidbody2D>();
+=======
+        //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+        Weapon.GetComponent<Renderer>().enabled = false;
+        SetUp();
+        bulletStartPosTransform = StartBulletPos.transform;
+        fireballStartPosTransform = FireballStartPos.transform;
+        Enemy.EnemiesSetupTarget(this);
+        EnemyAttack.InitialisePlayer(this);
+
+        audioSource = GetComponent<AudioSource>();
+        bodyAnim = GetComponent<Animator>();
+        
+        if (!isFirstStart)
+            audioSource.PlayOneShot(DeadSound);
+
+        isFirstStart = false;
+>>>>>>> Stashed changes
     }
 
     void Update()
