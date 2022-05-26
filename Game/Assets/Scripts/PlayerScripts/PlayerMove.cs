@@ -57,7 +57,7 @@ public class PlayerMove : Entity
     
     void Start()
     {
-        WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+        //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
