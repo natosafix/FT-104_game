@@ -14,8 +14,9 @@ public class Spider : Enemy
     {
         SetUp();
         aggroDistance = 10;
-        aggroSpeed = 6;
+        aggroSpeed = 4;
         patrolSpeed = 3;
+        aggroTime = 5;
         Bounds = bounds;
 
         audioSource = GetComponent<AudioSource>();

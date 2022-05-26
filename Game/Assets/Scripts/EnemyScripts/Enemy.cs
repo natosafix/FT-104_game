@@ -25,6 +25,8 @@ public class Enemy : Entity
     protected float patrolSpeed;
     protected float aggroSpeed;
     protected float aggroDistance;
+    protected float aggroTime;
+    protected float aggroTimeCount;
     
     protected Vector3 toTargetVec;
     protected EnemyState state = EnemyState.Patrol;
@@ -61,23 +63,26 @@ public class Enemy : Entity
     
     protected virtual void UpdateState()
     {
+        aggroTimeCount -= Time.fixedDeltaTime;
         if (!Target.IsAlive())
         {
             state = EnemyState.Patrol;
             return;
         }
         toTargetVec = Target.thisTransform.position - thisTransform.position;
-        pathToTarget = BFS.FindPath(currentWayPoint, Target.thisTransform, 3.0f);
-        hitTarget = Physics2D.BoxCast(thisTransform.position, new Vector2(0.55f, 0.55f), 0,
+        pathToTarget = BFS.FindPath(currentWayPoint, Target.thisTransform, this, 3.0f);
+        hitTarget = Physics2D.BoxCast(thisTransform.position, 
+            new Vector2(thisCollider2D.bounds.size.x - 0.1f, thisCollider2D.bounds.size.y - 0.1f), 0,
             Target.thisTransform.position - thisTransform.position, aggroDistance, 
             1 << 6 | 1 << 8);
         if (hitTarget.collider != null && hitTarget.collider.gameObject.layer == 6 || 
             toTargetVec.magnitude < aggroDistance && pathToTarget != currentWayPoint)
         {
+            aggroTimeCount = aggroTime;
             wasAggred = true;
             state = EnemyState.Aggro;
         }
-        else
+        else if (aggroTimeCount <= 0)
             state = EnemyState.Patrol;
         toTargetVec.Normalize();
     }
@@ -100,16 +105,23 @@ public class Enemy : Entity
         }
         else
         {
-            if (Vector2.Distance(currentWayPoint.Position, thisTransform.position) < 0.1f)
+            if (Vector2.Distance(currentWayPoint.Position, thisTransform.position) < 0.05f)
             {
+                if (pathToTarget == currentWayPoint)
+                {
+                    rigidbody2D.velocity = Vector2.zero;
+                    return;
+                }
+
                 lastWayPoint = currentWayPoint;
                 currentWayPoint = pathToTarget;
             }
             var currentPosition = (Vector2)thisTransform.position;
             var nextPosVec = (currentWayPoint.Position - currentPosition).normalized;
             nextPos = currentPosition + nextPosVec * (aggroSpeed * Time.deltaTime);
-            var hitEnemies = Physics2D.BoxCast(currentPosition + nextPosVec * 0.5f,
-                new Vector2(0.3f, 0.3f), 0, nextPosVec, 0.1f, 1 << 7);
+            var hitEnemies = Physics2D.BoxCast((Vector2)thisTransform.position + nextPosVec.normalized * 
+                thisCollider2D.bounds.size.y, new Vector2(thisCollider2D.bounds.size.x, 0.1f),
+                0, nextPosVec, 0.1f, 1 << 7);
             if (hitEnemies.collider != null)
             {
                 ChangeDirection(currentWayPoint);
@@ -134,17 +146,26 @@ public class Enemy : Entity
                     wasAggred = false;
                     return;
                 }
-                currentWayPoint = BFS.FindPath(currentWayPoint, startWayPoint.transform, aggroDistance);
+                currentWayPoint = BFS.FindPath(currentWayPoint, startWayPoint.transform, this, aggroDistance);
             }
             var currentPosition = (Vector2)thisTransform.position;
             var nextPosVec = (currentWayPoint.Position - currentPosition).normalized * (patrolSpeed * Time.deltaTime);
             nextPos = currentPosition + nextPosVec;
+            var hitEnemies = Physics2D.BoxCast((Vector2)thisTransform.position + nextPosVec.normalized * 
+                thisCollider2D.bounds.size.y, new Vector2(thisCollider2D.bounds.size.x, 0.1f),
+                0, nextPosVec, 0.1f, 1 << 7);
+            if (hitEnemies.collider != null)
+            {
+                ChangeDirection(currentWayPoint);
+                return;
+            }
             rigidbody2D.rotation = Mathf.Atan2(nextPosVec.y, nextPosVec.x) * Mathf.Rad2Deg + 270;
             rigidbody2D.MovePosition(nextPos);
             return;
         }
-        var hitWalls = Physics2D.BoxCast((Vector2)thisTransform.position + directionVec.normalized * 0.5f,
-            new Vector2(0.3f, 0.3f), 0, directionVec, 0.2f, bitmask);
+        var hitWalls = Physics2D.BoxCast((Vector2)thisTransform.position + directionVec.normalized * 
+            thisCollider2D.bounds.size.y, new Vector2(thisCollider2D.bounds.size.x, 0.2f),
+            0, directionVec, 0.1f, bitmask);
         if (Vector2.Distance(currentWayPoint.Position, thisTransform.position) > 0.1f && hitWalls.collider == null)
         {
             rigidbody2D.rotation = Mathf.Atan2(directionVec.y, directionVec.x) * Mathf.Rad2Deg + 270;
@@ -160,5 +181,16 @@ public class Enemy : Entity
         if (Random.Range(0, fromWayPoint.Neighbours.Length + 1) == 0)
             currentWayPoint = fromWayPoint;
         directionVec = (currentWayPoint.Position - (Vector2)thisTransform.position).normalized;
+    }
+}
+
+public static class EnemyExtensions
+{
+    public static RaycastHit2D Hit(this Enemy start, MonoBehaviour target, int layerMask, float maxDist = Mathf.Infinity)
+    {
+        var origin = (Vector2) start.transform.position;
+        var vecDir = ((Vector2) target.transform.position - origin).normalized;
+        return Physics2D.BoxCast(origin, new Vector2(start.thisCollider2D.bounds.size.x, 0.1f), 
+            0, vecDir, maxDist, layerMask);
     }
 }

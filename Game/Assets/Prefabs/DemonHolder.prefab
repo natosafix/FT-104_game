@@ -144,6 +144,7 @@ MonoBehaviour:
   Animator: {fileID: 1767639933847847618}
   DeadAnim: {fileID: 0}
   thisTransform: {fileID: 0}
+  thisCollider2D: {fileID: 0}
   directionVec: {x: 0, y: 0}
   startWayPoint: {fileID: 0}
   Player: {fileID: 3315066482042699167, guid: dc15d8dfef52c7d40ac64af2c64e9fc2, type: 3}
@@ -163,7 +164,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: effc0d496f2c4e144a91033290aefb66, type: 3}
   - {fileID: 8300000, guid: 1734cebdf2bc02842a4652686c07cf90, type: 3}
   - {fileID: 8300000, guid: e5afb3612f411224887c2576b4f8a2db, type: 3}
-  AttackDistance: 4.2
+  AttackDistance: 2
 --- !u!70 &1767639933847847619
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

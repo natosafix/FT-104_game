@@ -9,13 +9,15 @@ public class Entity : MonoBehaviour
     public Animator Animator;
     public GameObject DeadAnim;
     
-    public Transform thisTransform; 
+    public Transform thisTransform;
+    public Collider2D thisCollider2D;
     protected float HP { get; private set; }
     protected Rigidbody2D rigidbody2D;
 
     protected virtual void SetUp()
     {
         HP = 1;
+        thisCollider2D = GetComponent<Collider2D>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         thisTransform = GetComponent<Transform>();
     }
