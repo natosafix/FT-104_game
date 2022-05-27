@@ -20,24 +20,24 @@ public static class BFS
                 new Vector2(enemy.thisCollider2D.bounds.size.x, enemy.thisCollider2D.bounds.size.y),
                 0, toTargetVec, aggroDistance, 1 << 6 | 1 << 8);
             if (hit.collider != null && hit.collider.gameObject.layer == 6 || currentPoint == targetWayPoint)
-                return StartPointInTrack(currentPoint, track) ?? start;
+                return StartPointInTrack(currentPoint, track);
             foreach (var point in currentPoint.Neighbours.Where(x => !track.ContainsKey(x)))
             {
                 track[point] = currentPoint;
                 queue.Enqueue(point);
             }
         }
-        return start;
+        return null;
     }
     
     private static WayPoint StartPointInTrack(this WayPoint point, Dictionary<WayPoint, WayPoint> track)
     {
-        WayPoint prev = null;
-        while (track[point] != null)
+        var path = new List<WayPoint>();
+        while (point != null)
         {
-            prev = point;
+            path.Add(point);
             point = track[point];
         }
-        return prev;
+        return path.Count == 1 ? path[0] : path[path.Count - 2];
     }
 }
