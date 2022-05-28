@@ -193,7 +193,8 @@ public class PlayerMove : Entity
 
     protected override void DestroyObject()
     {
-        SceneManager.LoadScene("TestScene");
+        //SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("FirstLevel");
     }
 
 }
