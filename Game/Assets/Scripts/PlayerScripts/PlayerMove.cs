@@ -22,15 +22,13 @@ public class PlayerMove : Entity
     public float FireballDelay = 1.0f;
     public float Acceleration = 40f;
     
-    
+    [Header("Objects")]
     public GameObject Bullet;
     public GameObject Fireball;
     public GameObject StartBulletPos;
     public GameObject FireballStartPos;
     public GameObject Weapon;
     public GameObject WeaponPanel;
-    
-    public PlayerStates State = PlayerStates.Katana;
 
     [Header("Audio Effects")]
     public AudioClip[] KatanaAttackClip;
@@ -40,9 +38,12 @@ public class PlayerMove : Entity
     public AudioClip TakeShootGun;
     public AudioClip SpellCast;
 
+    private PlayerStates state = PlayerStates.Katana;
+    
     private AudioSource audioSource;
     private Animator bodyAnim;
-
+    private CameraJiggle cameraJiggle;
+    
     private float shotCoolDown;
     private float spellCoolDown;
     private Vector2 moveVec;
@@ -58,6 +59,8 @@ public class PlayerMove : Entity
     void Start()
     {
         //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+
+        cameraJiggle = Camera.main.GetComponent<CameraJiggle>();
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
         bulletStartPosTransform = StartBulletPos.transform;
@@ -94,36 +97,36 @@ public class PlayerMove : Entity
         Move();
         PlayerRotate();
     }
-
+    
     void UpdateAnim()
     {
         if (Input.GetKey(KeyCode.Alpha1) || isSpellCasted && spellCoolDown <= 0)
         {
             isSpellCasted = false;
-            if (State is PlayerStates.Katana)
+            if (state is PlayerStates.Katana)
                 return;
-            State = PlayerStates.Katana;
+            state = PlayerStates.Katana;
             audioSource.PlayOneShot(TakeKatana);
-            bodyAnim.SetInteger("PlayerState", (int) State);
+            bodyAnim.SetInteger("PlayerState", (int) state);
             Weapon.GetComponent<Renderer>().enabled = false;
-            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
         if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
         {
-            if (State is PlayerStates.WithWeapon)
+            if (state is PlayerStates.WithWeapon)
                 return;
-            State = PlayerStates.WithWeapon;
+            state = PlayerStates.WithWeapon;
             audioSource.PlayOneShot(TakeShootGun);
             Weapon.GetComponent<Renderer>().enabled = true;
-            bodyAnim.SetInteger("PlayerState", (int) State);
-            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 2;
+            bodyAnim.SetInteger("PlayerState", (int) state);
+            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 2;
         }
         if (Input.GetKey(KeyCode.G) && !isSpellCasted && spellCoolDown <= 0)
         {
-            State = PlayerStates.CastSpell;
+            state = PlayerStates.CastSpell;
             Weapon.GetComponent<Renderer>().enabled = false;
-            bodyAnim.SetInteger("PlayerState", (int) State);
-            WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+            bodyAnim.SetInteger("PlayerState", (int) state);
+            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
     }
 
@@ -134,7 +137,7 @@ public class PlayerMove : Entity
         if (spellCoolDown > 0)
             spellCoolDown -= Time.fixedDeltaTime;
 
-        switch (State)
+        switch (state)
         {
             case PlayerStates.Katana:
                 if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
@@ -150,6 +153,7 @@ public class PlayerMove : Entity
             case PlayerStates.WithWeapon:
                 if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
                     break;
+                cameraJiggle.JiggleCamera(0.3f);
                 audioSource.PlayOneShot(ShotGun);
                 Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
                 shotCoolDown = ShotDelay;
@@ -157,11 +161,13 @@ public class PlayerMove : Entity
             case PlayerStates.CastSpell:
                 if (spellCoolDown > 0 || isSpellCasted)
                     break;
+                
+                cameraJiggle.JiggleCamera(0.6f);
                 bodyAnim.SetTrigger("SpellAttack");
                 isSpellCasted = true;
                 Instantiate(Fireball, fireballStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
                 spellCoolDown = FireballDelay;
-                State = PlayerStates.Katana;
+                state = PlayerStates.Katana;
                 break;
         }
     }

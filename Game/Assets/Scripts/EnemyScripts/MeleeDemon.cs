@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Spider : Enemy
+public class MeleeDemon : Enemy
 {
-    public GameObject Player;
-    public Collider2D bounds;
     public GameObject[] BloodsEffects;
     public AudioClip[] DeadSounds;
     public float AttackDistance = 2f;
@@ -17,7 +15,6 @@ public class Spider : Enemy
         aggroSpeed = 4;
         patrolSpeed = 3;
         aggroTime = 5;
-        Bounds = bounds;
 
         audioSource = GetComponent<AudioSource>();
     }
@@ -49,26 +46,21 @@ public class Spider : Enemy
         
         var randDeadSoundIdx = Random.Range(0, DeadSounds.Length);
         audioSource.PlayOneShot(DeadSounds[randDeadSoundIdx]);
-        Destroy(bounds.gameObject);
         base.DestroyObject();
         
     }
 
     protected override void Move()
     {
-        if (IsAlive())
-        {
-            base.Move();
-            Attack();
-        }
+        base.Move();
+        Attack();
     }
 
     private void Attack()
     {
         if (state == EnemyState.Patrol)
             return;
-
-        var distanceToPlayer = (Target.thisTransform.position - thisTransform.position).magnitude;
+        
         if (distanceToPlayer <= AttackDistance)
             Animator.SetTrigger("Attack");
     }

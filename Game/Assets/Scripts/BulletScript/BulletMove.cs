@@ -13,8 +13,8 @@ public class BulletMove : MonoBehaviour
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
     public GameObject DemonExplosionAnim;
-    private HashSet<int> ignoreLayers = new HashSet<int>{0, 6, 9, 10, 11, 12};
-    private const int EnemyLayer = 7;
+    private HashSet<int> ignoreLayers = new HashSet<int>{0, 9, 10, 11, 12};
+    private HashSet<int> hitLayers = new HashSet<int> {6, 7};
     private Transform thisTransform;
     private Rigidbody2D rigidbody2D;
     
@@ -30,7 +30,7 @@ public class BulletMove : MonoBehaviour
     {
         if (hitInfo is null || ignoreLayers.Contains(hitInfo.gameObject.layer))
             return;
-        if (hitInfo.gameObject.layer == EnemyLayer)
+        if (hitLayers.Contains(hitInfo.gameObject.layer))
         {
             var enemy = hitInfo.gameObject.GetComponent<Entity>();
             if (enemy is null || !enemy.IsAlive())
