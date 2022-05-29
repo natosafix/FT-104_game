@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class SpellCastExplosion : MonoBehaviour
 {
+    private CameraJiggle cameraShake;
+    private Rigidbody2D player;
+    private Rigidbody2D rigidbody2D;
+    
     void Start()
     {
         var audioSource = GetComponent<AudioSource>();
+        player = GameObject.Find("Player").GetComponent<Rigidbody2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        cameraShake = Camera.main.GetComponent<CameraJiggle>();
+        cameraShake.JiggleCamera(
+            2 / Mathf.Abs(Vector2.Distance(player.position, rigidbody2D.position) - 4));
         Destroy(gameObject, audioSource.clip.length);
-    }
-
-    void Update()
-    {
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,7 +25,9 @@ public class SpellCastExplosion : MonoBehaviour
         {
             var enemy = other.GetComponent<Enemy>();
             if (enemy != null && enemy.IsAlive())
+            {
                 enemy.SetDamage(1);
+            }
         }
     }
 }

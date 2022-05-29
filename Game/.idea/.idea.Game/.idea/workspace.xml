@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Death.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Death.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Mafia.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/Mafia.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shotgun.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Shotgun.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_19_13__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Demon1/DemonExplosion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Demon1/DemonExplosion.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Fireball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Spider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/iso-64x64-outside.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,28 +31,46 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/3e/b49c8321/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/ca/7363510e/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b4ff5a062d2b4f0f8b2d2cfa2ddd7f34fa00/94/7c932131/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/f1/31dbf256/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4c5a6552ee3e423aa509a1d67235df501b800/ca/3fa88788/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9a/d91c074c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/43/6a7908c1/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/16/89f9cb27/Debug.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b492836710f1493ca0190fe9374a37da26800/f5/33cf2fde/Animator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/43/ed98fb74/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Effects/Fireball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../d/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Effects/Fireball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../d/Scripts/Effects/Fireball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../d/Scripts/CameraScripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Effects/Fireball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/CameraScripts/CameraShake.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../d/Scripts/BulletScript/BulletMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Нитро/Desktop/programming/FT-104_game/Game/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +98,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -189,7 +178,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
