@@ -10,7 +10,7 @@ public class Mafia : Enemy
     public GameObject Bullet;
     public GameObject StartBulletPos;
     public AudioClip ShotGun;
-    public float ShotDelay = 0.4f;
+    private float ShotDelay = 1f;
 
     private float shotCoolDown;
     private Transform bulletStartPosTransform;
@@ -25,6 +25,7 @@ public class Mafia : Enemy
         patrolSpeed = 3;
         aggroTime = 2;
         bulletStartPosTransform = StartBulletPos.transform;
+        shotCoolDown = ShotDelay;
             
         audioSource = GetComponent<AudioSource>();
     }
