@@ -14,7 +14,7 @@ public class MeleeDemon : Enemy
         aggroDistance = 10;
         aggroSpeed = 4;
         patrolSpeed = 3;
-        aggroTime = 5;
+        aggroTime = 2;
 
         audioSource = GetComponent<AudioSource>();
     }

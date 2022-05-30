@@ -6,7 +6,7 @@ public class Mafia : Enemy
 {
     public GameObject[] BloodsEffects;
     public AudioClip[] DeadSounds;
-    public float AttackDistance = 15f;
+    private const float AttackDistance = 30f;
     public GameObject Bullet;
     public GameObject StartBulletPos;
     public AudioClip ShotGun;
@@ -23,7 +23,7 @@ public class Mafia : Enemy
         aggroDistance = 10;
         aggroSpeed = 4;
         patrolSpeed = 3;
-        aggroTime = 5;
+        aggroTime = 2;
         bulletStartPosTransform = StartBulletPos.transform;
             
         audioSource = GetComponent<AudioSource>();
@@ -60,6 +60,14 @@ public class Mafia : Enemy
         
     }
 
+    protected override void AggroBehaviour()
+    {
+        if (hitTarget.collider.gameObject.layer == 6)
+            AggroBehaviorNoCollision();
+        else
+            AggroBehaviourCollision();
+    }
+
     protected override void AggroBehaviorNoCollision()
     {
         if (shotCoolDown > 0)
@@ -75,6 +83,7 @@ public class Mafia : Enemy
     {
         if (shotCoolDown > 0)
             return;
+        rigidbody2D.rotation = Mathf.Atan2(toTargetVec.y, toTargetVec.x) * Mathf.Rad2Deg + 270;
         audioSource.PlayOneShot(ShotGun);
         Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
         shotCoolDown = ShotDelay;

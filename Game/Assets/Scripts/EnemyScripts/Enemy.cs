@@ -90,7 +90,7 @@ public class Enemy : Entity
             new Vector2(thisCollider2D.bounds.size.x - 0.1f, thisCollider2D.bounds.size.y - 0.1f), 0,
             Target.thisTransform.position - thisTransform.position, aggroDistance, 
             1 << 6 | 1 << 8);
-        if (hitTarget.collider != null && hitTarget.collider.gameObject.layer == 6)
+        if (hitTarget.collider != null && hitTarget.collider.gameObject.layer == 6 && state != EnemyState.Aggro)
         {
             aggroTimeCount = aggroTime;
             wasAggred = true;
@@ -126,7 +126,7 @@ public class Enemy : Entity
     protected virtual void AggroBehaviour()
     {
 
-        if (hitTarget.collider.gameObject.layer == 6)
+        if (pathToTarget == currentWayPoint)
             AggroBehaviorNoCollision();
         else
             AggroBehaviourCollision();
@@ -144,7 +144,7 @@ public class Enemy : Entity
     protected virtual void AggroBehaviourCollision()
     {
         var currentPosition = (Vector2)thisTransform.position;
-        if (Vector2.Distance(currentTarget.Position, currentPosition) < 0.05f)
+        if (Vector2.Distance(currentTarget.Position, currentPosition) < 0.3f)
         {
             currentWayPoint = currentTarget;
             currentTarget = pathToTarget;

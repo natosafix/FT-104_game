@@ -3,10 +3,11 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     private static Entity Player;
-    public Entity NPC;
+    private Enemy NPC;
     
     void Start()
     {
+        NPC = gameObject.transform.parent.GetComponent<Enemy>();
     }
 
     void Update()

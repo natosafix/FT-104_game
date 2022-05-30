@@ -1,10 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
-using Quaternion = UnityEngine.Quaternion;
-using Vector2 = UnityEngine.Vector2;
-using Vector3 = UnityEngine.Vector3;
 
 public class BulletMove : MonoBehaviour
 {
@@ -13,12 +9,12 @@ public class BulletMove : MonoBehaviour
     public float DestroyTime = 2.0f;
     public GameObject ImpactAnim;
     public GameObject DemonExplosionAnim;
-    private HashSet<int> ignoreLayers = new HashSet<int>{0, 9, 10, 11, 12};
-    private HashSet<int> hitLayers = new HashSet<int> {6, 7};
-    private Transform thisTransform;
-    private Rigidbody2D rigidbody2D;
+    protected HashSet<int> ignoreLayers = new HashSet<int>{0, 9, 10, 11, 12};
+    protected HashSet<int> hitLayers = new HashSet<int> {6, 7};
+    protected Transform thisTransform;
+    protected Rigidbody2D rigidbody2D;
     
-    void Start()
+    protected void SetUp()
     {
         thisTransform = transform;
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -26,7 +22,7 @@ public class BulletMove : MonoBehaviour
         Invoke(nameof(DestroyShot), DestroyTime);
     }
 
-    private void OnTriggerEnter2D(Collider2D hitInfo)
+    protected void OnTriggerEnter2D(Collider2D hitInfo)
     {
         if (hitInfo is null || ignoreLayers.Contains(hitInfo.gameObject.layer))
             return;
@@ -46,10 +42,6 @@ public class BulletMove : MonoBehaviour
         DestroyShot();
     }
 
-    void Update()
-    {
-    }
-    
     void DestroyShot()
     {
         Destroy(gameObject);
