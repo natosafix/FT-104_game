@@ -235,7 +235,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b02724bbfbcb6e54e9ac7c19acb21dbc, type: 2}
+  - {fileID: 2100000, guid: 9e5bb1400423494419bf6b07b4890f47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -441,6 +441,7 @@ Transform:
   - {fileID: 1039832945711752834}
   - {fileID: 8000274571280811876}
   - {fileID: 8883801747690262348}
+  - {fileID: 4432466491590982125}
   m_Father: {fileID: 1039832947654060964}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -463,7 +464,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b02724bbfbcb6e54e9ac7c19acb21dbc, type: 2}
+  - {fileID: 2100000, guid: 9e5bb1400423494419bf6b07b4890f47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -522,7 +523,6 @@ MonoBehaviour:
   FireballStartPos: {fileID: 4745915292395615052}
   Weapon: {fileID: 1039832946334194721}
   WeaponPanel: {fileID: 0}
-  State: 0
   KatanaAttackClip:
   - {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
   - {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
@@ -745,6 +745,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2712023673380129332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4432466491590982125}
+  - component: {fileID: 818958337610475889}
+  m_Layer: 6
+  m_Name: Point Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4432466491590982125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712023673380129332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1039832946985094437}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &818958337610475889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712023673380129332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 1
+  m_Color: {r: 1, g: 0.9137255, b: 0.3529412, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0.448
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 1.4
+  m_PointLightOuterRadius: 8.71
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &3803063521741987665
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,7 +833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8883801747690262348
 Transform:
   m_ObjectHideFlags: 0
@@ -937,9 +1009,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2928a3c0ec9d0842afc2aab0f7bd1a1, type: 3}
---- !u!1 &1039832946334194721 stripped
+--- !u!1 &1039832947532769969 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3833611759091080549, guid: b2928a3c0ec9d0842afc2aab0f7bd1a1,
+  m_CorrespondingSourceObject: {fileID: 3833611758429088757, guid: b2928a3c0ec9d0842afc2aab0f7bd1a1,
     type: 3}
   m_PrefabInstance: {fileID: 4277719374344552772}
   m_PrefabAsset: {fileID: 0}
@@ -949,9 +1021,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4277719374344552772}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1039832947532769969 stripped
+--- !u!1 &1039832946334194721 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3833611758429088757, guid: b2928a3c0ec9d0842afc2aab0f7bd1a1,
+  m_CorrespondingSourceObject: {fileID: 3833611759091080549, guid: b2928a3c0ec9d0842afc2aab0f7bd1a1,
     type: 3}
   m_PrefabInstance: {fileID: 4277719374344552772}
   m_PrefabAsset: {fileID: 0}

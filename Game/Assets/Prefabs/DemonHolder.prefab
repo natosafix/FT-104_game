@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1767639933847847619}
   - component: {fileID: 8164921336045451531}
   - component: {fileID: 5549325406157766722}
+  - component: {fileID: 73490126559584264}
   m_Layer: 7
   m_Name: demon1
   m_TagString: Untagged
@@ -147,8 +148,6 @@ MonoBehaviour:
   thisCollider2D: {fileID: 0}
   directionVec: {x: 0, y: 0}
   startWayPoint: {fileID: 0}
-  Player: {fileID: 3315066482042699167, guid: dc15d8dfef52c7d40ac64af2c64e9fc2, type: 3}
-  bounds: {fileID: 0}
   BloodsEffects:
   - {fileID: 1817811118587071984, guid: 37c52d1b0599d4043b6fe34aec49636a, type: 3}
   - {fileID: 4971757692709024559, guid: ab49d1135fba2434f97e8769d8563cdb, type: 3}
@@ -340,6 +339,47 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &73490126559584264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767639933847847621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 1
+  m_Color: {r: 0.32156864, g: 0, b: 0.6039216, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 5.64
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1767639933877747692
 GameObject:
   m_ObjectHideFlags: 0

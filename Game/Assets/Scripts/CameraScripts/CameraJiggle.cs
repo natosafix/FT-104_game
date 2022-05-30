@@ -24,7 +24,7 @@ public class CameraJiggle : MonoBehaviour
     
     public void JiggleCamera(float offset)
     {
-        shakeRemaining = Mathf.Clamp(shakeRemaining + offset, 0, 2);
+        shakeRemaining = Mathf.Clamp(shakeRemaining + offset, 0, 0.4f);
     }
  
     private IEnumerator Jiggle()
