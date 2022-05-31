@@ -803,7 +803,7 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 1.4
+  m_PointLightInnerRadius: 0.68
   m_PointLightOuterRadius: 8.71
   m_PointLightDistance: 3
   m_PointLightQuality: 1

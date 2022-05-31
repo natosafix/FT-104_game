@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 11919528459604230}
   - component: {fileID: 470852233318089890}
   - component: {fileID: 6783153512904921421}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1293003837989644585}
   - component: {fileID: 8581549058814223700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shadow_caster_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,4 +262,4 @@ MonoBehaviour:
   - {x: -0.6472801, y: -0.4277324, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 78008
+  m_InstanceId: 88478

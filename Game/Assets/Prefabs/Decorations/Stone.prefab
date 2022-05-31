@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5934466501910408914}
   - component: {fileID: 8807614069804238208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shadow_caster_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 9064919419659290457}
   - component: {fileID: 3231591534462913630}
   - component: {fileID: 7713390470061808180}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

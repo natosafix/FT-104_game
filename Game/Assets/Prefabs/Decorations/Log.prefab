@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123386849876857144}
   - component: {fileID: 1670730571409019019}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shadow_caster_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
   - {x: 1.5060607, y: -0.44345102, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -193922
+  m_InstanceId: 88502
 --- !u!1 &8845205811446262824
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 849212144484048312}
   - component: {fileID: 8891460755548114747}
   - component: {fileID: 9205586062283266845}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Log
   m_TagString: Untagged
   m_Icon: {fileID: 0}
