@@ -14,7 +14,7 @@ public class WeaponChange : MonoBehaviour
 
     void Start()
     {
-        var WeaponPanel = GameObject.Find("Canvas").transform.GetChild(0);
+        var WeaponPanel = GameObject.Find("WeaponUI").transform.GetChild(0);
         CurrentWeapon = WeaponPanel.transform.GetChild(0);
         IdleWeapon = WeaponPanel.transform.GetChild(1);
 
