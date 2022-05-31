@@ -109,7 +109,7 @@ public class PlayerMove : Entity
             audioSource.PlayOneShot(TakeKatana);
             bodyAnim.SetInteger("PlayerState", (int) state);
             Weapon.GetComponent<Renderer>().enabled = false;
-            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+            WeaponPanel.GetComponent<WeaponChange>().ChangeWeapon(1);
         }
         if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory && 
             bodyAnim.GetCurrentAnimatorStateInfo(0).IsName("PlayerWithKatanaIdle"))
@@ -120,14 +120,14 @@ public class PlayerMove : Entity
             audioSource.PlayOneShot(TakeShootGun);
             Weapon.GetComponent<Renderer>().enabled = true;
             bodyAnim.SetInteger("PlayerState", (int) state);
-            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 2;
+            WeaponPanel.GetComponent<WeaponChange>().ChangeWeapon(2);
         }
         if (Input.GetKey(KeyCode.G) && !isSpellCasted && spellCoolDown <= 0)
         {
             state = PlayerStates.CastSpell;
             Weapon.GetComponent<Renderer>().enabled = false;
             bodyAnim.SetInteger("PlayerState", (int) state);
-            //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
+            WeaponPanel.GetComponent<WeaponChange>().ChangeWeapon(1);
         }
     }
 

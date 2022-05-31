@@ -7,32 +7,31 @@ using System;
 public class WeaponChange : MonoBehaviour
 {
     public Sprite[] spriteList;
+    public Sprite[] backgrounds;
     private int currentWeaponNum;
-    public int weaponNum;
-    private Transform CurrentWeapon;
-    private Transform IdleWeapon;
+    private int otherWeaponNum;
+    private Transform currentWeapon;
+    private Transform idleWeapon;
 
     void Start()
     {
-        var WeaponPanel = GameObject.Find("Canvas").transform.GetChild(0);
-        CurrentWeapon = WeaponPanel.transform.GetChild(0);
-        IdleWeapon = WeaponPanel.transform.GetChild(1);
-
+        var weaponPanel = GameObject.Find("Canvas").transform.GetChild(0);
+        currentWeapon = weaponPanel.transform.GetChild(0);
+        idleWeapon = weaponPanel.transform.GetChild(1);
+        currentWeaponNum = 1;
+        otherWeaponNum = 2;
     }
     public void ChangeWeapon(int weaponNum)
     {
-        var currentNum = (weaponNum == 1) ? 2 : 1;
-        IdleWeapon.GetChild(1).GetComponent<Text>().text = currentNum.ToString();
-        CurrentWeapon.GetChild(1).GetComponent<Text>().text = weaponNum.ToString();
-        IdleWeapon.GetChild(2).GetComponent<Image>().sprite = spriteList[(currentNum - 1) * 2];
-        CurrentWeapon.GetChild(2).GetComponent<Image>().sprite = spriteList[(weaponNum - 1) * 2 + 1];
-
-
-    }
-    void Update()
-    {
-        if (currentWeaponNum != weaponNum)
-            currentWeaponNum = weaponNum;
-            ChangeWeapon(weaponNum);
+        if (currentWeaponNum == weaponNum)
+            return;
+        currentWeaponNum = weaponNum;
+        otherWeaponNum = currentWeaponNum == 1 ? 2 : 1;
+        idleWeapon.GetChild(0).GetComponent<Image>().sprite = backgrounds[otherWeaponNum - 1];
+        currentWeapon.GetChild(0).GetComponent<Image>().sprite = backgrounds[currentWeaponNum - 1];
+        /*idleWeapon.GetChild(1).GetComponent<Text>().text = otherWeaponNum.ToString();
+        currentWeapon.GetChild(1).GetComponent<Text>().text = currentWeaponNum.ToString();
+        idleWeapon.GetChild(2).GetComponent<Image>().sprite = spriteList[otherWeaponNum];
+        currentWeapon.GetChild(2).GetComponent<Image>().sprite = spriteList[currentWeaponNum];*/
     }
 }

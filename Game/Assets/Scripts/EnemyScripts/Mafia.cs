@@ -82,9 +82,10 @@ public class Mafia : Enemy
 
     private void Attack()
     {
+        rigidbody2D.rotation = Mathf.Atan2(toTargetVec.y, toTargetVec.x) * Mathf.Rad2Deg + 270;
         if (shotCoolDown > 0)
             return;
-        rigidbody2D.rotation = Mathf.Atan2(toTargetVec.y, toTargetVec.x) * Mathf.Rad2Deg + 270;
+        
         audioSource.PlayOneShot(ShotGun);
         Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
         shotCoolDown = ShotDelay;
