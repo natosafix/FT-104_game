@@ -111,7 +111,8 @@ public class PlayerMove : Entity
             Weapon.GetComponent<Renderer>().enabled = false;
             //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
-        if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory)
+        if (Input.GetKey(KeyCode.Alpha2) && isGunInInventory && 
+            bodyAnim.GetCurrentAnimatorStateInfo(0).IsName("PlayerWithKatanaIdle"))
         {
             if (state is PlayerStates.WithWeapon)
                 return;
