@@ -154,7 +154,6 @@ public class Enemy : Entity
         var hitEnemies = Physics2D.BoxCast(currentPosition + nextPosVec.normalized, 
             new Vector2(thisCollider2D.bounds.size.x, 0.01f),
             0, nextPosVec, 0.01f, 1 << 7);
-        Debug.Log(hitEnemies.collider);
         if (hitEnemies.collider != null)
         {
             ChangeDirection(currentWayPoint);
