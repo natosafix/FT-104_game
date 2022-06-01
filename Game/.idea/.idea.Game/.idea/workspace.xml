@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/2DTerrian.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/2DTerrian.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Terrain.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Terrain.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/2D Renderer Data.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/2D Renderer Data.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/UniversalRenderPipelineAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pipeline/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mafia.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Mafia.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/NewBehaviourScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/NewBehaviourScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCaster2DTilemap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCaster2DTilemap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Barrels.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Barrels.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Bench.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Bench.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Box1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Materials/Box1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/Walls3Corner.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0002.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0003.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0005.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_a_0006.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0001.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0004.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodEffects/blood_b_0005.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Barrels.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Barrels.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Box1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Box1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Box2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Box2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Chest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Chest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Log.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Log.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Stone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Torch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Road.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entites/Environment/From3D/Road.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +129,7 @@
       <workItem from="1652697540103" duration="5381000" />
       <workItem from="1653659838919" duration="10784000" />
       <workItem from="1653726814262" duration="18733000" />
-      <workItem from="1653937336212" duration="3148000" />
+      <workItem from="1653937336212" duration="3827000" />
     </task>
     <servers />
   </component>
@@ -194,7 +144,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="BackupOnOldUnityVersion" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
