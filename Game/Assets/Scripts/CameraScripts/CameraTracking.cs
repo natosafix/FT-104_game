@@ -16,7 +16,7 @@ public class CameraTracking : MonoBehaviour
         playerRB = Player.GetComponent<Rigidbody2D>();
         var playerPosition = Player.transform.position;
         transform.position = new Vector3(playerPosition.x, playerPosition.y, OffsetZ);
-        Camera.main.orthographicSize += 3;
+        Camera.main.orthographicSize += 2;
     }
 
     void Update()
