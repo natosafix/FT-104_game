@@ -43,7 +43,8 @@ public class PlayerMove : Entity
     private AudioSource audioSource;
     private Animator bodyAnim;
     private CameraJiggle cameraJiggle;
-    
+
+    public int ammoLeft = 0;
     private float shotCoolDown;
     private float spellCoolDown;
     private Vector2 moveVec;
@@ -58,8 +59,6 @@ public class PlayerMove : Entity
     
     void Start()
     {
-        //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
-
         cameraJiggle = Camera.main.GetComponent<CameraJiggle>();
         Weapon.GetComponent<Renderer>().enabled = false;
         SetUp();
@@ -152,8 +151,10 @@ public class PlayerMove : Entity
                 rigidbody2D.AddForce(Vector2.up.Rotate(rigidbody2D.rotation) * 10, ForceMode2D.Impulse);
                 break;
             case PlayerStates.WithWeapon:
-                if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0)
+                if (!Input.GetMouseButton((int) MouseButton.LeftMouse) || shotCoolDown > 0 || ammoLeft <= 0)
                     break;
+                ammoLeft--;
+                WeaponPanel.GetComponent<WeaponChange>().ChangeAmmoLeft(ammoLeft);
                 cameraJiggle.JiggleCamera(0.3f);
                 audioSource.PlayOneShot(ShotGun);
                 Instantiate(Bullet, bulletStartPosTransform.position, Quaternion.Euler(0, 0, rigidbody2D.rotation));
