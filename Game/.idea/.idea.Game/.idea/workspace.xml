@@ -2,28 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Car.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Car.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/shell.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/shell.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/GrayMafia.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/GrayMafia.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/GreenMafia.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/GreenMafia.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGrayDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGrayDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGrayIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGrayIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGreenDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGreenDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGreenIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaGreenIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaPinkDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaPinkDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaPinkIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MafiaPinkIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MarfiaRedDeath.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MarfiaRedDeath.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MarfiaRedIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/MarfiaRedIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/PinkMafia.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/PinkMafia.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/RedMafia.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Mafia/RedMafia.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia2_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia2_death.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia3_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia3_death.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia4_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia4_death.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Enemy/Mafia/mafia_death.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bottle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bottle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bottle1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bottle1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Gold.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Gold.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Grass3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Grass3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Planks.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Planks.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashBottle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashBottle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCereal.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCereal.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCoup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCoup.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBang.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBehaviour.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Effects/FireballBehaviour.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Paper/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Paper/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/TrashToilet/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/TrashToilet/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DemonHolder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyBullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Fireball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireballExplosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Death.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Death.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Mafia.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Mafia/Mafia.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/TrashCoup/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/TrashCoup/0001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bench 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Brick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Brick.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GrayMafia.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GrayMafia.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GreenMafia.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GreenMafia.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PinkMafia.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PinkMafia.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerBullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RedMafia.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RedMafia.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +103,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/0f/d36b9540/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
@@ -150,7 +196,8 @@
       <workItem from="1653659838919" duration="10784000" />
       <workItem from="1653726814262" duration="18733000" />
       <workItem from="1653937336212" duration="3827000" />
-      <workItem from="1654110707975" duration="1167000" />
+      <workItem from="1654110707975" duration="2036000" />
+      <workItem from="1654186313726" duration="4498000" />
     </task>
     <servers />
   </component>

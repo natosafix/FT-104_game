@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
+using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 public class Mafia : Enemy
 {
@@ -18,7 +22,6 @@ public class Mafia : Enemy
     
     void Start()
     {
-        
         SetUp();
         aggroDistance = 10;
         aggroSpeed = 4;
@@ -43,10 +46,6 @@ public class Mafia : Enemy
             UpdateState();
             Move();
         }
-        else
-        {
-            rigidbody2D.velocity = Vector2.zero;
-        }
     }
 
     protected override void DestroyObject()
@@ -57,10 +56,25 @@ public class Mafia : Enemy
         
         var randDeadSoundIdx = Random.Range(0, DeadSounds.Length);
         audioSource.PlayOneShot(DeadSounds[randDeadSoundIdx]);
-        base.DestroyObject();
         
+        StartCoroutine(Ricochet());
     }
 
+    private IEnumerator Ricochet()
+    {
+        rigidbody2D.velocity = Vector2.zero;
+        var dir = Vector2.up.Rotate(rigidbody2D.rotation + 180).normalized * 10;
+        rigidbody2D.AddForce(dir, ForceMode2D.Impulse);
+        
+        for (int i = 0; i < 50; ++i)
+        {
+            rigidbody2D.velocity *= 0.9f;
+            yield return new WaitForSeconds(0.01f);
+        }
+
+        rigidbody2D.velocity = Vector2.zero;
+    }
+    
     protected override void AggroBehaviour()
     {
         if (hitTarget.collider.gameObject.layer == 6)
