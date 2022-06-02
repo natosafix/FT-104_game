@@ -2,295 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Bonfire.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Bonfire.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Fire.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Fire.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Bone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Grungy/Bone.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_05.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_06.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_07.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_08.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_09.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_13.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_14.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_15.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_17.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_18.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_19.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_20.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_21.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_22.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_23.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_24.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_26.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_27.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_28.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_29.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_30.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_38.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_39.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_40.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_41.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_42.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_43.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_44.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_46.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_47.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_48.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_49.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_51.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_52.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_53.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_54.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Trees/tree_55.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DETAL.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DIFFUSE.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_DISP.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_NORM.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_OCL.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/ground 0901-01_SPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03B_DIFFUSE.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DETAL.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DIFFUSE.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_DISP.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_NORM.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_OCL.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MC dirt stone wall free sample/texture/stone wall 0827-03_SPEC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/grass.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/grass.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_06.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_06.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_07.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_07.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_08.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_08.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_09.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_09.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_11.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_11.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_12.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_12.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_14.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_14.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_15.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_15.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_16.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_16.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_20.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_20.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_22.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_22.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_23.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_23.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_26.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_26.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_27.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_27.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_28.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_28.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_29.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_29.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_30.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_30.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_38.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_38.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_39.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_39.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_40.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_40.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_41.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_41.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_42.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_42.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_43.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_43.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_44.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_44.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_46.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_46.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_47.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_47.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_48.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_48.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_49.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_49.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_50.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_50.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_51.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_51.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_52.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_52.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_53.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_53.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_54.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_54.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_55.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_55.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Forest.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dungeon/Props/Minifantasy_DungeonProps.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dungeon/Props/Minifantasy_DungeonProps.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0022.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0022.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0023.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0023.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0024.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0024.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0025.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0025.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0026.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0026.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0027.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0027.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0028.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0028.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0029.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0029.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0030.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0030.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0031.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Bonfire/0031.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin1/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin1/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin2/0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin2/0001.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin2/0002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Coffin2/0002.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Cook/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Cook/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Headstone/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Headstone/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Headstone2/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Headstone2/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Pot/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Pot/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Pot1/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Pot1/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Stone/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Stone/0001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pallets/Decorations/Stone1/0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/Stone1/0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,19 +37,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/0f/d36b9540/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -421,6 +143,7 @@
       <workItem from="1653937336212" duration="3827000" />
       <workItem from="1654110707975" duration="2036000" />
       <workItem from="1654186313726" duration="7820000" />
+      <workItem from="1654209180597" duration="769000" />
     </task>
     <servers />
   </component>

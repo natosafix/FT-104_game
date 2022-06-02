@@ -21,9 +21,9 @@ public class Enemy : Entity
     
     public Vector2 directionVec;
     
+    public float aggroDistance;
     protected float patrolSpeed;
     protected float aggroSpeed;
-    protected float aggroDistance;
     protected float aggroTime;
     protected float aggroTimeCount;
     
