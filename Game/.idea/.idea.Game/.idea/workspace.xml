@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/ammo.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/Materials/ammo.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ammo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entites/Player/ammo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Intro.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Intro.mp4.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/ammo_interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/ammo_interface.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/TakeGun.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/WeaponChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/WeaponChange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/BackupOnOldUnityVersion" />
+    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/BackupOnOldUnityVersion,-1447muo/Add-intro" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
