@@ -72,6 +72,12 @@ public class Mafia : Enemy
             yield return new WaitForSeconds(0.01f);
         }
 
+        var tmp = thisTransform.position;
+        Instantiate(BloodsEffects[Random.Range(0, BloodsEffects.Length)], 
+            new Vector3(tmp.x, tmp.y, 0), Quaternion.identity);
+        //Instantiate(BloodsEffects[Random.Range(0, BloodsEffects.Length)], 
+        //    new Vector3(tmp.x, tmp.y, 0), Quaternion.identity);
+        
         rigidbody2D.velocity = Vector2.zero;
     }
     

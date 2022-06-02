@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(ShadowCaster2DTilemap))]
@@ -21,4 +21,4 @@ public class ShadowCastersGeneratorEditor : Editor
             generator.DestroyAllChildren();
     }
 
-}*/
+}
