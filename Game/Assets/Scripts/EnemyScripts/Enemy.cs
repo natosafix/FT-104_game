@@ -21,9 +21,9 @@ public class Enemy : Entity
     
     public Vector2 directionVec;
     
+    public float aggroDistance;
     protected float patrolSpeed;
     protected float aggroSpeed;
-    protected float aggroDistance;
     protected float aggroTime;
     protected float aggroTimeCount;
     
@@ -154,7 +154,6 @@ public class Enemy : Entity
         var hitEnemies = Physics2D.BoxCast(currentPosition + nextPosVec.normalized, 
             new Vector2(thisCollider2D.bounds.size.x, 0.01f),
             0, nextPosVec, 0.01f, 1 << 7);
-        Debug.Log(hitEnemies.collider);
         if (hitEnemies.collider != null)
         {
             ChangeDirection(currentWayPoint);

@@ -202,7 +202,8 @@ public class PlayerMove : Entity
     protected override void DestroyObject()
     {
         //SceneManager.LoadScene("TestScene");
-        SceneManager.LoadScene("FirstLevel");
+        //SceneManager.LoadScene("FirstLevel");
+        SceneManager.LoadScene("Forest");
     }
 
 }

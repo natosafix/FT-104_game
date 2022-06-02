@@ -4,7 +4,6 @@ using UnityEditor;
 [CustomEditor(typeof(ShadowCaster2DTilemap))]
 public class ShadowCastersGeneratorEditor : Editor
 {
-
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();

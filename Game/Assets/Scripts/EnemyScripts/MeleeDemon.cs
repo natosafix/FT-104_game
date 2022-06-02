@@ -11,7 +11,8 @@ public class MeleeDemon : Enemy
     void Start()
     {
         SetUp();
-        aggroDistance = 10;
+        if (aggroDistance == 0)
+            aggroDistance = 10;
         aggroSpeed = 4;
         patrolSpeed = 3;
         aggroTime = 2;
