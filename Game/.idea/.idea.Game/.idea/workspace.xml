@@ -2,17 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Pallets/sett.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/AudioMixer.mixer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Wind.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Wind.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Wind.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Wind.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floorIntro.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entites/Environment/floorIntro.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/WInd/W401-9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/bath.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/bath.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/toilet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Decorations/toilet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/TrashBag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/TrashBag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Wind.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Wind.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SceneLoader.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SceneLoader.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/SceneLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scenes/SceneLoader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pallets/topdown floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Bonfire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WeaponPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Settings.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

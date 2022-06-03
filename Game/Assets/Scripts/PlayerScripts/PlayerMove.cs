@@ -16,11 +16,14 @@ public enum PlayerStates
 
 public class PlayerMove : Entity
 {
+    public static string CurrentScene = "Menu";
+    
     [Header("Player Settings")]
     public float ShotDelay = 0.4f;
     public float KatanaDelay = 0.8f;
     public float FireballDelay = 1.0f;
     public float Acceleration = 40f;
+    public bool IsLockAttack = false;
     
     [Header("Objects")]
     public GameObject Bullet;
@@ -54,7 +57,6 @@ public class PlayerMove : Entity
     private Transform fireballStartPosTransform;
     public bool isSpellCasted = false;
     private int weaponNum;
-
     private static bool isFirstStart = true;
     
     void Start()
@@ -99,6 +101,9 @@ public class PlayerMove : Entity
     
     void UpdateAnim()
     {
+        if (IsLockAttack)
+            return;
+        
         if (Input.GetKey(KeyCode.Alpha1) || isSpellCasted && spellCoolDown <= 0)
         {
             isSpellCasted = false;
@@ -132,6 +137,8 @@ public class PlayerMove : Entity
 
     void Attack()
     {
+        if (IsLockAttack)
+            return;
         if (shotCoolDown > 0)
             shotCoolDown -= Time.fixedDeltaTime;
         if (spellCoolDown > 0)
@@ -201,9 +208,13 @@ public class PlayerMove : Entity
 
     protected override void DestroyObject()
     {
-        //SceneManager.LoadScene("TestScene");
-        //SceneManager.LoadScene("FirstLevel");
-        SceneManager.LoadScene("Forest");
+        SceneManager.LoadScene(CurrentScene);
     }
 
+    public static void LoadNewScene(string sceneName)
+    {
+        isFirstStart = true;
+        CurrentScene = sceneName;
+        SceneManager.LoadScene(CurrentScene);
+    }
 }
