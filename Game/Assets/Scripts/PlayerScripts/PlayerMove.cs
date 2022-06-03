@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -128,6 +130,21 @@ public class PlayerMove : Entity
             bodyAnim.SetInteger("PlayerState", (int) state);
             //WeaponPanel.GetComponent<WeaponChange>().weaponNum = 1;
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(dash());
+        }
+    }
+
+    IEnumerator dash()
+    {
+        invincible = true;
+        mouseVec = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        var playerPos = (Vector2)Camera.main.WorldToScreenPoint(thisTransform.position);
+        var playerToMouseVec = (mouseVec - playerPos).normalized;
+        rigidbody2D.AddForce(playerToMouseVec * 1000);
+        yield return new WaitForSeconds(0.3f);
+        invincible = false;
     }
 
     void Attack()

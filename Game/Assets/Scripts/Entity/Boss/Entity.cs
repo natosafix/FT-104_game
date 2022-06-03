@@ -13,6 +13,7 @@ public class Entity : MonoBehaviour
     public Collider2D thisCollider2D;
     protected float HP { get; private set; }
     protected Rigidbody2D rigidbody2D;
+    public bool invincible = false;
 
     protected virtual void SetUp()
     {
@@ -22,14 +23,28 @@ public class Entity : MonoBehaviour
         thisTransform = GetComponent<Transform>();
     }
 
+    protected virtual void SetUp(int health)
+    {
+        HP = health;
+        thisCollider2D = GetComponent<Collider2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        thisTransform = GetComponent<Transform>();
+    }
+
     public virtual void SetDamage(float damage)
     {
-        HP = 0;
-        if (Animator != null)
-            Animator.SetTrigger("Dead");
-        if (DeadAnim != null)
-            Instantiate(DeadAnim, thisTransform.position, Quaternion.identity);
-        DestroyObject();
+        if (!invincible)
+        {
+            HP -= 1;
+            if (HP <= 0)
+            {
+                if (Animator != null)
+                    Animator.SetTrigger("Dead");
+                if (DeadAnim != null)
+                    Instantiate(DeadAnim, thisTransform.position, Quaternion.identity);
+                DestroyObject();
+            }
+        }
     }
 
     protected virtual void DestroyObject()
