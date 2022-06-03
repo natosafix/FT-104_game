@@ -5,15 +5,9 @@
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.mp4.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidGun.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidGun.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidKatana.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidKatana.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidSpellCast.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidSpellCast.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossLevel.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BossLevel.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BossLevel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BossLevel.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
