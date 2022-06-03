@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ammo.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ammo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog_icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/enemy_dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/enemy_dialog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/mad_dialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/mad_dialog.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/EnemyBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/PlayerBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/PlayerBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/BackupOnOldUnityVersion" />
+    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFixBFS,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/Add-intro,-1447muo/BackupOnOldUnityVersion,-1447muo/fix-bots-dec" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -90,10 +94,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4164">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="4164" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -180,5 +184,37 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\UI\Dialog.cs" initialLine="33" containingFunctionPresentation="method 'OnTriggerEnter2D'">
+            <startOffsets>
+              <option value="781" />
+            </startOffsets>
+            <endOffsets>
+              <option value="825" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\UI\Dialog.cs" initialLine="43" containingFunctionPresentation="method 'ShowDialog'">
+            <startOffsets>
+              <option value="1062" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1093" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

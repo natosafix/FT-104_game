@@ -48,6 +48,7 @@ public class PlayerMove : Entity
     private CameraJiggle cameraJiggle;
 
     public int ammoLeft = 0;
+    public bool isLocked = false;
     private float shotCoolDown;
     private float spellCoolDown;
     private Vector2 moveVec;
@@ -80,6 +81,12 @@ public class PlayerMove : Entity
 
     void Update()
     {
+        if (isLocked)
+        {
+            rigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+            
         if (!IsAlive())
             return;
         UpdateAnim();
@@ -87,6 +94,12 @@ public class PlayerMove : Entity
 
     void FixedUpdate()
     {
+        if (isLocked)
+        {
+            rigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+        
         if (!IsAlive())
             return;
         Attack();

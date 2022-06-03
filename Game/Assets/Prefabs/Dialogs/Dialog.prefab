@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7508742314710796642}
   - component: {fileID: 8764071007628003239}
-  m_Layer: 0
+  - component: {fileID: -751798923371066313}
+  m_Layer: 13
   m_Name: Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,3 +58,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.8891015}
   m_EdgeRadius: 0
+--- !u!114 &-751798923371066313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342152090298714375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5305d56410a98d749bd1bd7c98f7f875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogs: []
+  PlayerSprites:
+  - {fileID: 582320509837358756, guid: 6f18b8cf1cd118c469b4b4e6a23f8e34, type: 3}
+  - {fileID: -4014264085945803715, guid: 6f18b8cf1cd118c469b4b4e6a23f8e34, type: 3}
+  EnemySprites:
+  - {fileID: -1641933972147114994, guid: 0cefddeb6280e1047b118d501f31210a, type: 3}
+  - {fileID: -4697767154299319982, guid: 0cefddeb6280e1047b118d501f31210a, type: 3}
+  Speaker: enemy
