@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 584990033712515118}
   - component: {fileID: 2580184793204905460}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: shadow_caster_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 6956685166085324776}
   - component: {fileID: 2265574304354149908}
   - component: {fileID: 4546704664871537209}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Barrels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
