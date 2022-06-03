@@ -78,7 +78,7 @@ public class Enemy : Entity
     
     protected virtual void UpdateState()
     {
-        if (!Target.IsAlive())
+        if (!Target.IsAlive() || currentWayPoint is null)
         {
             state = EnemyState.Patrol;
             return;
