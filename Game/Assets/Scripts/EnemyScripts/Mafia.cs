@@ -23,7 +23,8 @@ public class Mafia : Enemy
     void Start()
     {
         SetUp();
-        aggroDistance = 10;
+        if (aggroDistance == 0)
+            aggroDistance = 10;
         aggroSpeed = 4;
         patrolSpeed = 3;
         aggroTime = 2;
@@ -84,10 +85,7 @@ public class Mafia : Enemy
     protected override void AggroBehaviour()
     {
         if (HitTarget.collider != null && HitTarget.collider.gameObject.layer == 6)
-        {
-            Debug.Log(HitTarget.collider.gameObject.layer);
             AggroBehaviorNoCollision();
-        }
         else
             AggroBehaviourCollision();
     }

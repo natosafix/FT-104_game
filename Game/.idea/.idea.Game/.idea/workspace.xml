@@ -2,17 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ammo.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ammo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Arrow.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Arrow.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Arrow.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Environment/Arrow.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pallets/Arrow.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/TrashCan1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/EnemyBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/EnemyBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript/PlayerBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript/PlayerBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Barrels.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Decorations/Barrels.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_03.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_03.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_04.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_04.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_05.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_05.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_06.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_06.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_07.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_07.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_08.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_08.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_09.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_09.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_11.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_12.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_14.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_15.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_15.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_16.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_16.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_20.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_20.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_22.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_22.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_23.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_23.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_26.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_26.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_27.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_27.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_28.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_28.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_29.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_29.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_30.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_30.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_38.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_38.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_39.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_39.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_40.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_40.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_41.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_41.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_42.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_42.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_43.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_43.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_44.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_44.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_46.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_46.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_47.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_47.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_48.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_48.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_49.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_49.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_50.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_50.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_51.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_51.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_52.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_52.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_53.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_53.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_54.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_54.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_55.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_55.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/WayPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +84,23 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/DestroyExplosion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScript/BulletMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerLegs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/TakeCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/BFS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraJiggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.8.1/Runtime/2D/Light2DManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScripts/CameraTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/0f/d36b9540/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TIlemap/ShadowCasterGeneratorEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/Mafia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/MeleeDemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/KatanaAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Explosion/SpellCastExplosion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +128,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -175,7 +224,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
