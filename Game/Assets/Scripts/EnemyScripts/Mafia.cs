@@ -83,8 +83,11 @@ public class Mafia : Enemy
     
     protected override void AggroBehaviour()
     {
-        if (hitTarget.collider.gameObject.layer == 6)
+        if (HitTarget.collider != null && HitTarget.collider.gameObject.layer == 6)
+        {
+            Debug.Log(HitTarget.collider.gameObject.layer);
             AggroBehaviorNoCollision();
+        }
         else
             AggroBehaviourCollision();
     }

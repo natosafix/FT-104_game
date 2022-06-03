@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 194004166012491021}
   - component: {fileID: 194004166012491022}
   - component: {fileID: 194004166012491020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TrashCan1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

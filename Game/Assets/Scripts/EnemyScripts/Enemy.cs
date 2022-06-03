@@ -15,7 +15,7 @@ public enum EnemyState
 
 public class Enemy : Entity
 {
-    protected int bitmask = 1 << 8 | 1 << 7;
+    private int bitmask = 1 << 3 | 1 << 8 | 1 << 7;
     
     protected static Entity Target;
     
@@ -38,7 +38,7 @@ public class Enemy : Entity
     protected bool isNoCollision = false;
     protected bool wasAggred;
     
-    protected RaycastHit2D hitTarget;
+    public RaycastHit2D HitTarget;
 
     public static void EnemiesSetupTarget(Entity player)
     {
@@ -70,7 +70,7 @@ public class Enemy : Entity
                     new Vector2(thisCollider2D.bounds.size.x, 0.2f), 0,
                     (xPos - thisPosition).normalized,
                     (xPos - thisPosition).magnitude, 
-                    1 << 8);
+                    1 << 3 | 1 << 8);
                 return hitWalls.collider == null && x.gameObject != gameObject;
             })
             .FirstOrDefault();
@@ -86,11 +86,10 @@ public class Enemy : Entity
         toTargetVec = Target.thisTransform.position - thisTransform.position;
         distanceToPlayer = toTargetVec.magnitude;
         pathToTarget = BFS.FindPath(currentWayPoint, Target.thisTransform, this, 3.0f);
-        hitTarget = Physics2D.BoxCast(thisTransform.position, 
+        HitTarget = Physics2D.BoxCast(thisTransform.position, 
             new Vector2(thisCollider2D.bounds.size.x - 0.1f, thisCollider2D.bounds.size.y - 0.1f), 0,
-            Target.thisTransform.position - thisTransform.position, aggroDistance, 
-            1 << 6 | 1 << 8);
-        if (hitTarget.collider != null && hitTarget.collider.gameObject.layer == 6 && state != EnemyState.Aggro)
+            Target.thisTransform.position - thisTransform.position, aggroDistance, 1 << 6 | 1 << 8);
+        if (HitTarget.collider != null && HitTarget.collider.gameObject.layer == 6 && state != EnemyState.Aggro)
         {
             aggroTimeCount = aggroTime;
             wasAggred = true;

@@ -22,7 +22,7 @@ public class WayPoint : MonoBehaviour
                     new Vector2(0.9f, 0.2f), 0,
                     (xPos - Position).normalized,
                     (xPos - Position).magnitude, 
-                    1 << 8);
+                    1 << 3 | 1 << 8);
                 return hitWalls.collider == null && x.gameObject != gameObject;
             })
             .ToArray();
