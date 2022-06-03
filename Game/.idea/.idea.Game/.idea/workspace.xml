@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd9c8b3-9e02-4160-a045-9d01cd9d5b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/char_dialog_icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/enemy_dialog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/enemy_dialog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/mad_dialog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/mad_dialog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Intro.mp4.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogs/Dialog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidGun.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidGun.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidKatana.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidKatana.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GuidSpellCast.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GuidSpellCast.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotDialog.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlotVideo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScripts/IntroCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Dialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFixBFS,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/Add-intro,-1447muo/BackupOnOldUnityVersion,-1447muo/fix-bots-dec" />
+    <property name="app.teamhub.trackedBranches" value="-1447muo/Animation-fixes,-1447muo/TryMergeWithFixBFS,-1447muo/TryImproveBFS,-1447muo/AddFireball,-1447muo/main,-1447muo/Fix-BFS,-1447muo/TryMergeWithFirstScene,-1447muo/BFS-work,-1447muo/natosafix_work,-1447muo/fix-bots-dec,-1447muo/Add-intro,-1447muo/BackupOnOldUnityVersion,-1447muo/add-dialogs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -193,10 +190,10 @@
           <line>33</line>
           <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\UI\Dialog.cs" initialLine="33" containingFunctionPresentation="method 'OnTriggerEnter2D'">
             <startOffsets>
-              <option value="781" />
+              <option value="769" />
             </startOffsets>
             <endOffsets>
-              <option value="825" />
+              <option value="813" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -206,10 +203,10 @@
           <line>43</line>
           <properties documentPath="D:\GitHub\FT-104_game\Game\Assets\Scripts\UI\Dialog.cs" initialLine="43" containingFunctionPresentation="method 'ShowDialog'">
             <startOffsets>
-              <option value="1062" />
+              <option value="1050" />
             </startOffsets>
             <endOffsets>
-              <option value="1093" />
+              <option value="1081" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />

@@ -21,7 +21,7 @@ public class PlayerMove : Entity
     [Header("Player Settings")]
     public float ShotDelay = 0.4f;
     public float KatanaDelay = 0.8f;
-    public float FireballDelay = 1.0f;
+    public float FireballDelay = 4f;
     public float Acceleration = 40f;
     public bool IsLockAttack = false;
     

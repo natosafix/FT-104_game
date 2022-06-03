@@ -514,8 +514,9 @@ MonoBehaviour:
   thisCollider2D: {fileID: 0}
   ShotDelay: 0.4
   KatanaDelay: 0.8
-  FireballDelay: 1
+  FireballDelay: 4
   Acceleration: 60
+  IsLockAttack: 0
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
   Fireball: {fileID: 6435858772776663341, guid: 9739b43ef3e5f5d46b1b3b63725ea321,
     type: 3}
@@ -533,6 +534,8 @@ MonoBehaviour:
   TakeKatana: {fileID: 8300000, guid: 67dd73a8fb8b99e4d8c8d793c86c4324, type: 3}
   TakeShootGun: {fileID: 8300000, guid: 40cda279da2faea43ad6582184440a70, type: 3}
   SpellCast: {fileID: 0}
+  ammoLeft: 0
+  isLocked: 0
   isSpellCasted: 0
 --- !u!50 &1039832946985094438
 Rigidbody2D:

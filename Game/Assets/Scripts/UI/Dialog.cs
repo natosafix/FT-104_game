@@ -18,9 +18,9 @@ public class Dialog : MonoBehaviour
     void Start()
     {
         isActive = true;
-        dialogs = GameObject.Find("Canvas").transform.GetChild(0);
-        playerDialogs = dialogs.GetChild(0);
-        enemyDialogs = dialogs.GetChild(1);
+        dialogs = GameObject.Find("Canvas").transform;
+        playerDialogs = dialogs.GetChild(1);
+        enemyDialogs = dialogs.GetChild(0);
     }
 
     // Update is called once per frame
@@ -53,6 +53,8 @@ public class Dialog : MonoBehaviour
             }
             else
             {
+                var tmp = playerDialogs.GetChild(0);
+                var tmp2 = playerDialogs.GetChild(0).GetComponent<Image>().sprite;
                 playerDialogs.GetChild(0).GetComponent<Image>().sprite = PlayerSprites[0];
                 playerDialogs.GetChild(1).gameObject.SetActive(false);
                 enemyDialogs.GetChild(0).GetComponent<Image>().sprite = EnemySprites[1];
@@ -61,12 +63,13 @@ public class Dialog : MonoBehaviour
             }
 
             Speaker = Speaker == "player" ? "enemy" : "player"; 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(3);
         }
         other.gameObject.GetComponent<PlayerMove>().isLocked = false;
         playerDialogs.GetChild(1).gameObject.SetActive(false);
         enemyDialogs.GetChild(1).gameObject.SetActive(false);
         playerDialogs.GetChild(0).GetComponent<Image>().sprite = PlayerSprites[0];
         enemyDialogs.GetChild(0).GetComponent<Image>().sprite = EnemySprites[0];
+        yield return new WaitForSeconds(0.01f);
     }
 }

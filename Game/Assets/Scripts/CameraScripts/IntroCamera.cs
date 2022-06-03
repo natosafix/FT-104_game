@@ -15,6 +15,6 @@ public class IntroCamera : MonoBehaviour
     private IEnumerator WaitForLevel()
     {
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("FirstLevel");
+        SceneManager.LoadScene("PlotDialog");
     }
 }
