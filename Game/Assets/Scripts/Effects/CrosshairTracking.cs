@@ -8,7 +8,6 @@ public class CrosshairTracking : MonoBehaviour
     
     void Start()
     {
-        // Cursor.visible = false;
         thisTransform = transform;
     }
 

@@ -245,6 +245,7 @@ public class PlayerMove : Entity
     {
         isFirstStart = true;
         CurrentScene = sceneName;
+        Debug.Log(CurrentScene);
         SceneManager.LoadScene(CurrentScene);
     }
 }

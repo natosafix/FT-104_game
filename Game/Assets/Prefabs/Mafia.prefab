@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,7 +106,9 @@ MonoBehaviour:
   DeadAnim: {fileID: 0}
   thisTransform: {fileID: 0}
   thisCollider2D: {fileID: 0}
+  invincible: 0
   directionVec: {x: 0, y: 0}
+  aggroDistance: 0
   startWayPoint: {fileID: 0}
   BloodsEffects:
   - {fileID: 4971757692709024559, guid: ab49d1135fba2434f97e8769d8563cdb, type: 3}
@@ -127,11 +129,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
   - {fileID: 8300000, guid: bff7b8d254e16dd46bd9b8e56d65fa49, type: 3}
   - {fileID: 8300000, guid: f03ca00748cc75c438092911536058b5, type: 3}
-  AttackDistance: 2
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
   StartBulletPos: {fileID: 5815198673348015764}
   ShotGun: {fileID: 8300000, guid: 6739c01659ad96d47987f4ddee226b36, type: 3}
-  ShotDelay: 1
 --- !u!50 &7313852354040004136
 Rigidbody2D:
   serializedVersion: 4

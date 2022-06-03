@@ -512,9 +512,10 @@ MonoBehaviour:
   DeadAnim: {fileID: 0}
   thisTransform: {fileID: 0}
   thisCollider2D: {fileID: 0}
+  invincible: 0
   ShotDelay: 0.4
   KatanaDelay: 0.8
-  FireballDelay: 4
+  FireballDelay: 1.5
   Acceleration: 60
   IsLockAttack: 0
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}

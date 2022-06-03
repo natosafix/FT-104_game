@@ -108,6 +108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce785b482b1e544bb26f7ea18231c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WallHitSounds: []
+  EnemyHitSounds: []
 --- !u!1 &3315066481921846423
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,7 +161,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -249,7 +251,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -296,16 +298,29 @@ MonoBehaviour:
   Animator: {fileID: 0}
   DeadAnim: {fileID: 0}
   thisTransform: {fileID: 0}
+  thisCollider2D: {fileID: 0}
+  invincible: 0
   ShotDelay: 0.2
   KatanaDelay: 0.8
+  FireballDelay: 4
   Acceleration: 40
+  IsLockAttack: 0
   Bullet: {fileID: 4323053293366261084, guid: 0c48debf6d950eb44a90f39df02f8ac5, type: 3}
   Fireball: {fileID: 6435858772776663341, guid: 9739b43ef3e5f5d46b1b3b63725ea321,
     type: 3}
   StartBulletPos: {fileID: 3315066482585377287}
+  FireballStartPos: {fileID: 0}
   Weapon: {fileID: 3315066481921846423}
-  BodyAnim: {fileID: 3315066482042699158}
-  State: 0
+  WeaponPanel: {fileID: 0}
+  KatanaAttackClip: []
+  ShotGun: {fileID: 0}
+  DeadSound: {fileID: 0}
+  TakeKatana: {fileID: 0}
+  TakeShootGun: {fileID: 0}
+  SpellCast: {fileID: 0}
+  ammoLeft: 0
+  isLocked: 0
+  isSpellCasted: 0
 --- !u!50 &3315066482042699152
 Rigidbody2D:
   serializedVersion: 4

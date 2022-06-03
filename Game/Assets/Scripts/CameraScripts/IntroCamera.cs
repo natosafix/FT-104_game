@@ -15,6 +15,7 @@ public class IntroCamera : MonoBehaviour
     private IEnumerator WaitForLevel()
     {
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("PlotDialog");
+        SceneManager.LoadScene("GuidKatana");
+        Cursor.visible = false;
     }
 }
